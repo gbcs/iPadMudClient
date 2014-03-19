@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'MudClientIpad4' target in the 'MudClientIpad4' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "CoreData/CoreData.h"
+	#import <QuartzCore/QuartzCore.h>
+    #import "RegExpTools.h"
+    #import "SettingsTool.h"
+    #import "RemoteServer.h"
+#endif

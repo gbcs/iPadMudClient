@@ -1,0 +1,1537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2614ECF3133C113500E6262D /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BC9B121FCCB7001C2A4B /* 104-index-cards.png */; };
+		2614ECF4133C113500E6262D /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BC9D121FCCB7001C2A4B /* 106-sliders.png */; };
+		2614ECF5133C113500E6262D /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BD0B121FCCB7001C2A4B /* 96-book.png */; };
+		2614EEA6133C113500E6262D /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD856123EFDF700733BF1 /* 20-gear2.png */; };
+		2614EEA7133C113500E6262D /* list_accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD85C123F011F00733BF1 /* list_accept.png */; };
+		2614EEA8133C113500E6262D /* list_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD879123F024E00733BF1 /* list_go.png */; };
+		2614EEA9133C113500E6262D /* edit-redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF591242BFBA000BE68E /* edit-redo.png */; };
+		2614EEAA133C113500E6262D /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF741242C7D3000BE68E /* arrow-down.png */; };
+		2614EEAB133C113500E6262D /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF751242C7D3000BE68E /* arrow-left.png */; };
+		2614EEAC133C113500E6262D /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF761242C7D3000BE68E /* arrow-right.png */; };
+		2614EEAD133C113500E6262D /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF771242C7D3000BE68E /* arrow-up.png */; };
+		2614EEAE133C113500E6262D /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF781242C7D3000BE68E /* help.png */; };
+		2614EEAF133C113500E6262D /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF791242C7D3000BE68E /* history.png */; };
+		2614EEB0133C113500E6262D /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 2635505912462EB90011A894 /* eye.png */; };
+		2614EEB4133C113500E6262D /* configure.png in Resources */ = {isa = PBXBuildFile; fileRef = 26691F5E125B81F4001C58E1 /* configure.png */; };
+		2614EEB5133C113500E6262D /* connections.png in Resources */ = {isa = PBXBuildFile; fileRef = 26691F5F125B81F4001C58E1 /* connections.png */; };
+		2614EEB6133C113500E6262D /* mud_list_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2647F6C8132DD3DD00AF03FC /* mud_list_12.txt */; };
+		2614EEB8133C113500E6262D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2614EEB9133C113500E6262D /* MudClientIpad4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MudClientIpad4AppDelegate.m */; };
+		2614EEBA133C113500E6262D /* mudclientipad4-1.2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5EA12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld */; };
+		2614EEBB133C113500E6262D /* ButtonPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8229D1245F5970000B0E7 /* ButtonPanel.m */; };
+		2614EEBD133C113500E6262D /* libtelnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A01245F5970000B0E7 /* libtelnet.c */; };
+		2614EEBF133C113500E6262D /* MudAddButtonAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A61245F5970000B0E7 /* MudAddButtonAction.m */; };
+		2614EEC0133C113500E6262D /* MudAddConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A81245F5970000B0E7 /* MudAddConnections.m */; };
+		2614EEC1133C113500E6262D /* MudAddTriggerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AA1245F5970000B0E7 /* MudAddTriggerAction.m */; };
+		2614EEC2133C113500E6262D /* MudButtonRunMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AC1245F5970000B0E7 /* MudButtonRunMacro.m */; };
+		2614EEC3133C113500E6262D /* MudButtonsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AE1245F5970000B0E7 /* MudButtonsDetail.m */; };
+		2614EEC4133C113500E6262D /* MudButtonSendText.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B01245F5970000B0E7 /* MudButtonSendText.m */; };
+		2614EEC5133C113500E6262D /* MudButtonsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B21245F5970000B0E7 /* MudButtonsImage.m */; };
+		2614EEC6133C113500E6262D /* MudClientIpad4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B41245F5970000B0E7 /* MudClientIpad4ViewController.m */; };
+		2614EEC7133C113500E6262D /* MudConnectionInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B61245F5970000B0E7 /* MudConnectionInstance.m */; };
+		2614EEC8133C113500E6262D /* MudInputFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CB1245F5970000B0E7 /* MudInputFooter.m */; };
+		2614EEC9133C113500E6262D /* MudMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CD1245F5970000B0E7 /* MudMacros.m */; };
+		2614EECA133C113500E6262D /* MudMacrosBranchLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CF1245F5970000B0E7 /* MudMacrosBranchLocation.m */; };
+		2614EECB133C113500E6262D /* MudMacrosDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D11245F5970000B0E7 /* MudMacrosDetail.m */; };
+		2614EECC133C113500E6262D /* MudMacrosName.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D31245F5970000B0E7 /* MudMacrosName.m */; };
+		2614EECD133C113500E6262D /* MudMacrosStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D51245F5970000B0E7 /* MudMacrosStep.m */; };
+		2614EECE133C113500E6262D /* MudMacrosStepBranchVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D71245F5970000B0E7 /* MudMacrosStepBranchVar.m */; };
+		2614EECF133C113500E6262D /* MudMacrosStepBranchVar2.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D91245F5970000B0E7 /* MudMacrosStepBranchVar2.m */; };
+		2614EED0133C113500E6262D /* MudMacrosStepLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DB1245F5970000B0E7 /* MudMacrosStepLabel.m */; };
+		2614EED1133C113500E6262D /* MudMacrosStepRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DD1245F5970000B0E7 /* MudMacrosStepRun.m */; };
+		2614EED2133C113500E6262D /* MudMacrosStepVarAssMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DF1245F5970000B0E7 /* MudMacrosStepVarAssMac.m */; };
+		2614EED3133C113500E6262D /* MudMacrosStepVarAssNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E11245F5970000B0E7 /* MudMacrosStepVarAssNum.m */; };
+		2614EED4133C113500E6262D /* MudMacrosStepVarConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E31245F5970000B0E7 /* MudMacrosStepVarConst.m */; };
+		2614EED5133C113500E6262D /* MudMacrosStepVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E51245F5970000B0E7 /* MudMacrosStepVariable.m */; };
+		2614EED6133C113500E6262D /* MudMacrosStepVariableModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E71245F5970000B0E7 /* MudMacrosStepVariableModifier.m */; };
+		2614EED7133C113500E6262D /* MudMacrosStepVarVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E91245F5970000B0E7 /* MudMacrosStepVarVar.m */; };
+		2614EED8133C113500E6262D /* MudPreviousCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822EB1245F5970000B0E7 /* MudPreviousCommands.m */; };
+		2614EED9133C113500E6262D /* MudSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822ED1245F5970000B0E7 /* MudSession.m */; };
+		2614EEDA133C113500E6262D /* MudSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822EF1245F5970000B0E7 /* MudSettings.m */; };
+		2614EEDB133C113500E6262D /* MudStepFormattedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F11245F5970000B0E7 /* MudStepFormattedText.m */; };
+		2614EEDC133C113500E6262D /* MudStepFormattedTextVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F31245F5970000B0E7 /* MudStepFormattedTextVar.m */; };
+		2614EEDD133C113500E6262D /* MudTriggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F51245F5970000B0E7 /* MudTriggers.m */; };
+		2614EEDE133C113500E6262D /* MudTriggersDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F71245F5970000B0E7 /* MudTriggersDetail.m */; };
+		2614EEDF133C113500E6262D /* MudVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F91245F5970000B0E7 /* MudVariables.m */; };
+		2614EEE0133C113500E6262D /* MudVariablesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FB1245F5970000B0E7 /* MudVariablesDetail.m */; };
+		2614EEE1133C113500E6262D /* NetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FD1245F5970000B0E7 /* NetworkQueue.m */; };
+		2614EEE2133C113500E6262D /* NewConnectionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FF1245F5970000B0E7 /* NewConnectionDetail.m */; };
+		2614EEE3133C113500E6262D /* NewConnectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823011245F5970000B0E7 /* NewConnectionGroup.m */; };
+		2614EEE4133C113500E6262D /* NewConnectionMudList.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823031245F5970000B0E7 /* NewConnectionMudList.m */; };
+		2614EEE5133C113500E6262D /* NewConnectionMudsByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823051245F5970000B0E7 /* NewConnectionMudsByName.m */; };
+		2614EEE7133C113500E6262D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823091245F5970000B0E7 /* Reachability.m */; };
+		2614EEE9133C113500E6262D /* UIFont+CoreTextExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8230E1245F5970000B0E7 /* UIFont+CoreTextExtensions.m */; };
+		2614EEEA133C113500E6262D /* MudTranscriptList.m in Sources */ = {isa = PBXBuildFile; fileRef = 266920E4125BEEC5001C58E1 /* MudTranscriptList.m */; };
+		2614EEEB133C113500E6262D /* MudTranscriptDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26692164125C0CFC001C58E1 /* MudTranscriptDetail.m */; };
+		2614EEEC133C113500E6262D /* nvtLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFD6E31262EB88007BEFEF /* nvtLine.m */; };
+		2614EEEF133C113500E6262D /* MudDataVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5C312645A150083E9E8 /* MudDataVariables.m */; };
+		2614EEF2133C113500E6262D /* MudDataMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5C912645A150083E9E8 /* MudDataMacros.m */; };
+		2614EEF3133C113500E6262D /* MudDataServerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CB12645A150083E9E8 /* MudDataServerList.m */; };
+		2614EEF4133C113500E6262D /* MudDataPreviousCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CD12645A150083E9E8 /* MudDataPreviousCommands.m */; };
+		2614EEF5133C113500E6262D /* MudDataTriggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CF12645A150083E9E8 /* MudDataTriggers.m */; };
+		2614EEF6133C113500E6262D /* MudDataSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5D112645A150083E9E8 /* MudDataSessionData.m */; };
+		2614EEF7133C113500E6262D /* MudDataSessions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5D312645A150083E9E8 /* MudDataSessions.m */; };
+		2614EEF8133C113500E6262D /* mudclientipad4-1.2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 26B5E98811FEAB7D00B9DB2D /* mudclientipad4-1.2.xcdatamodel */; };
+		2614EEFA133C113500E6262D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C1911E13306042000EC46C /* CFNetwork.framework */; };
+		2614EEFB133C113500E6262D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		2614EEFC133C113500E6262D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2614EEFD133C113500E6262D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2614EEFE133C113500E6262D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B5E98411FEAB3B00B9DB2D /* CoreData.framework */; };
+		2614EEFF133C113500E6262D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269BC6A112169B5D006EC431 /* CoreText.framework */; };
+		2614EF00133C113500E6262D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BD93971234EE2B00DC24BA /* libz.1.2.5.dylib */; };
+		2614EF01133C113500E6262D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CD908123F0FB500733BF1 /* SystemConfiguration.framework */; };
+		2614EF19133C122800E6262D /* mudclientipad4-1.5.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2614EF18133C120C00E6262D /* mudclientipad4-1.5.xcdatamodel */; };
+		2614EF1A133C122900E6262D /* mudclientipad4-1.5.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2614EF18133C120C00E6262D /* mudclientipad4-1.5.xcdatamodel */; };
+		262D0AA515BE927E00D837E3 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C825841245F7B10000B0E7 /* Entitlements.plist */; };
+		262D0AA615BE927E00D837E3 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C825841245F7B10000B0E7 /* Entitlements.plist */; };
+		262D0ABC15BEFBE400D837E3 /* Rules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262D0ABB15BEFBE400D837E3 /* Rules.plist */; };
+		262D0ABD15BEFBE400D837E3 /* Rules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262D0ABB15BEFBE400D837E3 /* Rules.plist */; };
+		2635505A12462EB90011A894 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 2635505912462EB90011A894 /* eye.png */; };
+		264307C1138DA460004B230B /* circleRedLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 264307C0138DA460004B230B /* circleRedLine.png */; };
+		264307C2138DA460004B230B /* circleRedLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 264307C0138DA460004B230B /* circleRedLine.png */; };
+		2647F6C9132DD3DD00AF03FC /* mud_list_12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2647F6C8132DD3DD00AF03FC /* mud_list_12.txt */; };
+		2656C5D612645A150083E9E8 /* MudDataVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5C312645A150083E9E8 /* MudDataVariables.m */; };
+		2656C5D912645A150083E9E8 /* MudDataMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5C912645A150083E9E8 /* MudDataMacros.m */; };
+		2656C5DA12645A150083E9E8 /* MudDataServerList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CB12645A150083E9E8 /* MudDataServerList.m */; };
+		2656C5DB12645A150083E9E8 /* MudDataPreviousCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CD12645A150083E9E8 /* MudDataPreviousCommands.m */; };
+		2656C5DC12645A150083E9E8 /* MudDataTriggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5CF12645A150083E9E8 /* MudDataTriggers.m */; };
+		2656C5DD12645A150083E9E8 /* MudDataSessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5D112645A150083E9E8 /* MudDataSessionData.m */; };
+		2656C5DE12645A150083E9E8 /* MudDataSessions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5D312645A150083E9E8 /* MudDataSessions.m */; };
+		2656C5EB12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2656C5EA12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld */; };
+		2656C5F112645B0A0083E9E8 /* mudclientipad4-1.2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 26B5E98811FEAB7D00B9DB2D /* mudclientipad4-1.2.xcdatamodel */; };
+		26691F60125B81F4001C58E1 /* configure.png in Resources */ = {isa = PBXBuildFile; fileRef = 26691F5E125B81F4001C58E1 /* configure.png */; };
+		26691F61125B81F4001C58E1 /* connections.png in Resources */ = {isa = PBXBuildFile; fileRef = 26691F5F125B81F4001C58E1 /* connections.png */; };
+		266920E5125BEEC5001C58E1 /* MudTranscriptList.m in Sources */ = {isa = PBXBuildFile; fileRef = 266920E4125BEEC5001C58E1 /* MudTranscriptList.m */; };
+		26692165125C0CFC001C58E1 /* MudTranscriptDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26692164125C0CFC001C58E1 /* MudTranscriptDetail.m */; };
+		268BCC3F135C33D90068E353 /* NewConnectionFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 268BCC3E135C33D90068E353 /* NewConnectionFont.m */; };
+		268BCC40135C33D90068E353 /* NewConnectionFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 268BCC3E135C33D90068E353 /* NewConnectionFont.m */; };
+		26918F11133DD25600D3ECB2 /* MudDataMacroSteps.m in Sources */ = {isa = PBXBuildFile; fileRef = 26918F10133DD25600D3ECB2 /* MudDataMacroSteps.m */; };
+		26918F12133DD25600D3ECB2 /* MudDataMacroSteps.m in Sources */ = {isa = PBXBuildFile; fileRef = 26918F10133DD25600D3ECB2 /* MudDataMacroSteps.m */; };
+		26918F18133DD26E00D3ECB2 /* MudMacroStepDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 26918F17133DD26E00D3ECB2 /* MudMacroStepDelay.m */; };
+		26918F19133DD26E00D3ECB2 /* MudMacroStepDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 26918F17133DD26E00D3ECB2 /* MudMacroStepDelay.m */; };
+		26960366134AD4F3001030D6 /* introPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960365134AD4F3001030D6 /* introPage.m */; };
+		26960367134AD4F3001030D6 /* introPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26960365134AD4F3001030D6 /* introPage.m */; };
+		26C1911F13306042000EC46C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C1911E13306042000EC46C /* CFNetwork.framework */; };
+		26C77C5D13554D0F009D4E96 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C77C5C13554D0F009D4E96 /* DebugLog.m */; };
+		26C77C5E13554D0F009D4E96 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C77C5C13554D0F009D4E96 /* DebugLog.m */; };
+		26C823701245F77E0000B0E7 /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BC9B121FCCB7001C2A4B /* 104-index-cards.png */; };
+		26C823711245F77E0000B0E7 /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BC9D121FCCB7001C2A4B /* 106-sliders.png */; };
+		26C823721245F77E0000B0E7 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 2666BD0B121FCCB7001C2A4B /* 96-book.png */; };
+		26C825241245F77E0000B0E7 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD856123EFDF700733BF1 /* 20-gear2.png */; };
+		26C825251245F77E0000B0E7 /* list_accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD85C123F011F00733BF1 /* list_accept.png */; };
+		26C825261245F77E0000B0E7 /* list_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 262CD879123F024E00733BF1 /* list_go.png */; };
+		26C825281245F77E0000B0E7 /* edit-redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF591242BFBA000BE68E /* edit-redo.png */; };
+		26C825291245F77E0000B0E7 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF741242C7D3000BE68E /* arrow-down.png */; };
+		26C8252A1245F77E0000B0E7 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF751242C7D3000BE68E /* arrow-left.png */; };
+		26C8252B1245F77E0000B0E7 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF761242C7D3000BE68E /* arrow-right.png */; };
+		26C8252C1245F77E0000B0E7 /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF771242C7D3000BE68E /* arrow-up.png */; };
+		26C8252D1245F77E0000B0E7 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF781242C7D3000BE68E /* help.png */; };
+		26C8252E1245F77E0000B0E7 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 2662AF791242C7D3000BE68E /* history.png */; };
+		26C825311245F77E0000B0E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		26C825321245F77E0000B0E7 /* MudClientIpad4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MudClientIpad4AppDelegate.m */; };
+		26C825351245F77E0000B0E7 /* ButtonPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8229D1245F5970000B0E7 /* ButtonPanel.m */; };
+		26C825371245F77E0000B0E7 /* libtelnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A01245F5970000B0E7 /* libtelnet.c */; };
+		26C825391245F77E0000B0E7 /* MudAddButtonAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A61245F5970000B0E7 /* MudAddButtonAction.m */; };
+		26C8253A1245F77E0000B0E7 /* MudAddConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822A81245F5970000B0E7 /* MudAddConnections.m */; };
+		26C8253B1245F77E0000B0E7 /* MudAddTriggerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AA1245F5970000B0E7 /* MudAddTriggerAction.m */; };
+		26C8253C1245F77E0000B0E7 /* MudButtonRunMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AC1245F5970000B0E7 /* MudButtonRunMacro.m */; };
+		26C8253D1245F77E0000B0E7 /* MudButtonsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822AE1245F5970000B0E7 /* MudButtonsDetail.m */; };
+		26C8253E1245F77E0000B0E7 /* MudButtonSendText.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B01245F5970000B0E7 /* MudButtonSendText.m */; };
+		26C8253F1245F77E0000B0E7 /* MudButtonsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B21245F5970000B0E7 /* MudButtonsImage.m */; };
+		26C825401245F77E0000B0E7 /* MudClientIpad4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B41245F5970000B0E7 /* MudClientIpad4ViewController.m */; };
+		26C825411245F77E0000B0E7 /* MudConnectionInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822B61245F5970000B0E7 /* MudConnectionInstance.m */; };
+		26C8254B1245F77E0000B0E7 /* MudInputFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CB1245F5970000B0E7 /* MudInputFooter.m */; };
+		26C8254C1245F77E0000B0E7 /* MudMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CD1245F5970000B0E7 /* MudMacros.m */; };
+		26C8254D1245F77E0000B0E7 /* MudMacrosBranchLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822CF1245F5970000B0E7 /* MudMacrosBranchLocation.m */; };
+		26C8254E1245F77E0000B0E7 /* MudMacrosDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D11245F5970000B0E7 /* MudMacrosDetail.m */; };
+		26C8254F1245F77E0000B0E7 /* MudMacrosName.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D31245F5970000B0E7 /* MudMacrosName.m */; };
+		26C825501245F77E0000B0E7 /* MudMacrosStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D51245F5970000B0E7 /* MudMacrosStep.m */; };
+		26C825511245F77E0000B0E7 /* MudMacrosStepBranchVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D71245F5970000B0E7 /* MudMacrosStepBranchVar.m */; };
+		26C825521245F77E0000B0E7 /* MudMacrosStepBranchVar2.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822D91245F5970000B0E7 /* MudMacrosStepBranchVar2.m */; };
+		26C825531245F77E0000B0E7 /* MudMacrosStepLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DB1245F5970000B0E7 /* MudMacrosStepLabel.m */; };
+		26C825541245F77E0000B0E7 /* MudMacrosStepRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DD1245F5970000B0E7 /* MudMacrosStepRun.m */; };
+		26C825551245F77E0000B0E7 /* MudMacrosStepVarAssMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822DF1245F5970000B0E7 /* MudMacrosStepVarAssMac.m */; };
+		26C825561245F77E0000B0E7 /* MudMacrosStepVarAssNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E11245F5970000B0E7 /* MudMacrosStepVarAssNum.m */; };
+		26C825571245F77E0000B0E7 /* MudMacrosStepVarConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E31245F5970000B0E7 /* MudMacrosStepVarConst.m */; };
+		26C825581245F77E0000B0E7 /* MudMacrosStepVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E51245F5970000B0E7 /* MudMacrosStepVariable.m */; };
+		26C825591245F77E0000B0E7 /* MudMacrosStepVariableModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E71245F5970000B0E7 /* MudMacrosStepVariableModifier.m */; };
+		26C8255A1245F77E0000B0E7 /* MudMacrosStepVarVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822E91245F5970000B0E7 /* MudMacrosStepVarVar.m */; };
+		26C8255B1245F77E0000B0E7 /* MudPreviousCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822EB1245F5970000B0E7 /* MudPreviousCommands.m */; };
+		26C8255C1245F77E0000B0E7 /* MudSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822ED1245F5970000B0E7 /* MudSession.m */; };
+		26C8255D1245F77E0000B0E7 /* MudSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822EF1245F5970000B0E7 /* MudSettings.m */; };
+		26C8255E1245F77E0000B0E7 /* MudStepFormattedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F11245F5970000B0E7 /* MudStepFormattedText.m */; };
+		26C8255F1245F77E0000B0E7 /* MudStepFormattedTextVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F31245F5970000B0E7 /* MudStepFormattedTextVar.m */; };
+		26C825601245F77E0000B0E7 /* MudTriggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F51245F5970000B0E7 /* MudTriggers.m */; };
+		26C825611245F77E0000B0E7 /* MudTriggersDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F71245F5970000B0E7 /* MudTriggersDetail.m */; };
+		26C825621245F77E0000B0E7 /* MudVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822F91245F5970000B0E7 /* MudVariables.m */; };
+		26C825631245F77E0000B0E7 /* MudVariablesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FB1245F5970000B0E7 /* MudVariablesDetail.m */; };
+		26C825641245F77E0000B0E7 /* NetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FD1245F5970000B0E7 /* NetworkQueue.m */; };
+		26C825651245F77E0000B0E7 /* NewConnectionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C822FF1245F5970000B0E7 /* NewConnectionDetail.m */; };
+		26C825661245F77E0000B0E7 /* NewConnectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823011245F5970000B0E7 /* NewConnectionGroup.m */; };
+		26C825671245F77E0000B0E7 /* NewConnectionMudList.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823031245F5970000B0E7 /* NewConnectionMudList.m */; };
+		26C825681245F77E0000B0E7 /* NewConnectionMudsByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823051245F5970000B0E7 /* NewConnectionMudsByName.m */; };
+		26C8256A1245F77E0000B0E7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C823091245F5970000B0E7 /* Reachability.m */; };
+		26C8256C1245F77E0000B0E7 /* UIFont+CoreTextExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8230E1245F5970000B0E7 /* UIFont+CoreTextExtensions.m */; };
+		26C8256E1245F77E0000B0E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		26C8256F1245F77E0000B0E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		26C825701245F77E0000B0E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		26C825711245F77E0000B0E7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B5E98411FEAB3B00B9DB2D /* CoreData.framework */; };
+		26C825721245F77E0000B0E7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269BC6A112169B5D006EC431 /* CoreText.framework */; };
+		26C825731245F77E0000B0E7 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BD93971234EE2B00DC24BA /* libz.1.2.5.dylib */; };
+		26C825741245F77E0000B0E7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262CD908123F0FB500733BF1 /* SystemConfiguration.framework */; };
+		26C87697135E942B00EAC82C /* Medievia.fon in Resources */ = {isa = PBXBuildFile; fileRef = 26C87695135E942B00EAC82C /* Medievia.fon */; };
+		26C87698135E942B00EAC82C /* MedSansMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C87696135E942B00EAC82C /* MedSansMono.ttf */; };
+		26C87699135E942B00EAC82C /* Medievia.fon in Resources */ = {isa = PBXBuildFile; fileRef = 26C87695135E942B00EAC82C /* Medievia.fon */; };
+		26C8769A135E942B00EAC82C /* MedSansMono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26C87696135E942B00EAC82C /* MedSansMono.ttf */; };
+		26C8771F135EA7BB00EAC82C /* MudDataSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8771C135EA7BB00EAC82C /* MudDataSettings.m */; };
+		26C87720135EA7BB00EAC82C /* MudDataCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8771E135EA7BB00EAC82C /* MudDataCharacters.m */; };
+		26C87721135EA7BB00EAC82C /* MudDataSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8771C135EA7BB00EAC82C /* MudDataSettings.m */; };
+		26C87722135EA7BB00EAC82C /* MudDataCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C8771E135EA7BB00EAC82C /* MudDataCharacters.m */; };
+		26C87798135EB48500EAC82C /* NewConnectionFontDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C87797135EB48500EAC82C /* NewConnectionFontDetail.m */; };
+		26C87799135EB48500EAC82C /* NewConnectionFontDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C87797135EB48500EAC82C /* NewConnectionFontDetail.m */; };
+		26EFD6E41262EB88007BEFEF /* nvtLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFD6E31262EB88007BEFEF /* nvtLine.m */; };
+		26F0591013429106000680EB /* MudConnectionLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F0590F13429106000680EB /* MudConnectionLocale.m */; };
+		26F0591113429106000680EB /* MudConnectionLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F0590F13429106000680EB /* MudConnectionLocale.m */; };
+		26F05A3C1342F1E0000680EB /* MudConnectionEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F05A3B1342F1E0000680EB /* MudConnectionEncoding.m */; };
+		26F05A3D1342F1E0000680EB /* MudConnectionEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F05A3B1342F1E0000680EB /* MudConnectionEncoding.m */; };
+		26FAE7FC135064500019FF91 /* MudDataButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FAE7FB135064500019FF91 /* MudDataButtons.m */; };
+		26FAE7FD135064500019FF91 /* MudDataButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FAE7FB135064500019FF91 /* MudDataButtons.m */; };
+		2A06B282145F15C7006D02E1 /* RegExpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06B281145F15C6006D02E1 /* RegExpTools.m */; };
+		2A06B283145F15C7006D02E1 /* RegExpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06B281145F15C6006D02E1 /* RegExpTools.m */; };
+		2A06F7A21480E2FB00679F3C /* MudDataTouchableTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06F7A11480E2FB00679F3C /* MudDataTouchableTexts.m */; };
+		2A06F7A31480E2FB00679F3C /* MudDataTouchableTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A06F7A11480E2FB00679F3C /* MudDataTouchableTexts.m */; };
+		2A06F7A61480E55D00679F3C /* 10-arrows-in.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A06F7A41480E55D00679F3C /* 10-arrows-in.png */; };
+		2A06F7A71480E55D00679F3C /* 10-arrows-in.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A06F7A41480E55D00679F3C /* 10-arrows-in.png */; };
+		2A06F7A81480E55D00679F3C /* 10-arrows-in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A06F7A51480E55D00679F3C /* 10-arrows-in@2x.png */; };
+		2A06F7A91480E55D00679F3C /* 10-arrows-in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A06F7A51480E55D00679F3C /* 10-arrows-in@2x.png */; };
+		2A36AAFA14659FE0004FC11A /* MudDataSpeedwalking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36AAF714659FDD004FC11A /* MudDataSpeedwalking.m */; };
+		2A36AAFB14659FE0004FC11A /* MudDataSpeedwalking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A36AAF714659FDD004FC11A /* MudDataSpeedwalking.m */; };
+		2A4568AC147A219700573D7C /* TouchableTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4568AB147A219700573D7C /* TouchableTexts.m */; };
+		2A4568AD147A219700573D7C /* TouchableTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4568AB147A219700573D7C /* TouchableTexts.m */; };
+		2A53DE2115A7F7FC00DA6AC9 /* TeleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53DE1F15A7F7FB00DA6AC9 /* TeleViewController.m */; };
+		2A53DE2215A7F7FC00DA6AC9 /* TeleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A53DE1F15A7F7FB00DA6AC9 /* TeleViewController.m */; };
+		2A53DE2315A7F7FC00DA6AC9 /* TeleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A53DE2015A7F7FB00DA6AC9 /* TeleViewController.xib */; };
+		2A53DE2415A7F7FC00DA6AC9 /* TeleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A53DE2015A7F7FB00DA6AC9 /* TeleViewController.xib */; };
+		2A5860E71599BA1C00E98EFB /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5860E61599BA1C00E98EFB /* Default-Portrait@2x~ipad.png */; };
+		2A5860E91599BA2600E98EFB /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5860E81599BA2500E98EFB /* Default-Landscape@2x~ipad.png */; };
+		2A5860F41599BD3900E98EFB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A5860F11599BD3800E98EFB /* Default-Landscape~ipad.png */; };
+		2A974371147E2B0300B75A51 /* 20-gear-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A974369147E2B0300B75A51 /* 20-gear-2@2x.png */; };
+		2A974372147E2B0300B75A51 /* 20-gear-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A974369147E2B0300B75A51 /* 20-gear-2@2x.png */; };
+		2A974373147E2B0300B75A51 /* 59-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436A147E2B0300B75A51 /* 59-flag.png */; };
+		2A974374147E2B0300B75A51 /* 59-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436A147E2B0300B75A51 /* 59-flag.png */; };
+		2A974375147E2B0300B75A51 /* 59-flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436B147E2B0300B75A51 /* 59-flag@2x.png */; };
+		2A974376147E2B0300B75A51 /* 59-flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436B147E2B0300B75A51 /* 59-flag@2x.png */; };
+		2A974377147E2B0300B75A51 /* 96-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436C147E2B0300B75A51 /* 96-book@2x.png */; };
+		2A974378147E2B0300B75A51 /* 96-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436C147E2B0300B75A51 /* 96-book@2x.png */; };
+		2A974379147E2B0300B75A51 /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436D147E2B0300B75A51 /* 102-walk.png */; };
+		2A97437A147E2B0300B75A51 /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436D147E2B0300B75A51 /* 102-walk.png */; };
+		2A97437B147E2B0300B75A51 /* 102-walk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436E147E2B0300B75A51 /* 102-walk@2x.png */; };
+		2A97437C147E2B0300B75A51 /* 102-walk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436E147E2B0300B75A51 /* 102-walk@2x.png */; };
+		2A97437D147E2B0300B75A51 /* 104-index-cards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436F147E2B0300B75A51 /* 104-index-cards@2x.png */; };
+		2A97437E147E2B0300B75A51 /* 104-index-cards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A97436F147E2B0300B75A51 /* 104-index-cards@2x.png */; };
+		2A97437F147E2B0300B75A51 /* 106-sliders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A974370147E2B0300B75A51 /* 106-sliders@2x.png */; };
+		2A974380147E2B0300B75A51 /* 106-sliders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A974370147E2B0300B75A51 /* 106-sliders@2x.png */; };
+		2A974384147E3A3C00B75A51 /* TouchableTextsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A974383147E3A3C00B75A51 /* TouchableTextsDetail.m */; };
+		2A974385147E3A3C00B75A51 /* TouchableTextsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A974383147E3A3C00B75A51 /* TouchableTextsDetail.m */; };
+		2ABA0A341467AA4D00D307A3 /* SpeedwalkingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0A331467AA4D00D307A3 /* SpeedwalkingList.m */; };
+		2ABA0A351467AA4D00D307A3 /* SpeedwalkingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0A331467AA4D00D307A3 /* SpeedwalkingList.m */; };
+		2ABA0A381467AA6100D307A3 /* SpeedwalkingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0A371467AA6100D307A3 /* SpeedwalkingDetail.m */; };
+		2ABA0A391467AA6100D307A3 /* SpeedwalkingDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA0A371467AA6100D307A3 /* SpeedwalkingDetail.m */; };
+		4E641FC718098A4D007C5AA8 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E641FC518098A4D007C5AA8 /* icon76.png */; };
+		4E641FC818098A4D007C5AA8 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E641FC618098A4D007C5AA8 /* icon152.png */; };
+		4E6D50ED18095488005DBC1D /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D50EC18095488005DBC1D /* Default-Portrait~ipad.png */; };
+		4E6D50F118096547005DBC1D /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D50EF18096547005DBC1D /* HelpViewController.m */; };
+		4E6D50F218096547005DBC1D /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E6D50F018096547005DBC1D /* HelpViewController.xib */; };
+		4E6D50F518097D4C005DBC1D /* InviteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D50F418097D4C005DBC1D /* InviteView.m */; };
+		4EA0347817F538E7004BA174 /* SettingsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0347717F538E7004BA174 /* SettingsTool.m */; };
+		4EA034B617F5760E004BA174 /* RemoteServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034B517F5760E004BA174 /* RemoteServer.m */; };
+		4EA034B917F57711004BA174 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA034B817F57711004BA174 /* MobileCoreServices.framework */; };
+		4EA034BB17F5772E004BA174 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA034BA17F5772D004BA174 /* MultipeerConnectivity.framework */; };
+		58320041164ED87100B46F45 /* MudAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = 58320040164ED87100B46F45 /* MudAliases.m */; };
+		58320042164ED87100B46F45 /* MudAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = 58320040164ED87100B46F45 /* MudAliases.m */; };
+		58320045164ED88200B46F45 /* MudAliasesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 58320044164ED88200B46F45 /* MudAliasesDetail.m */; };
+		58320046164ED88200B46F45 /* MudAliasesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 58320044164ED88200B46F45 /* MudAliasesDetail.m */; };
+		58320062164EE3AC00B46F45 /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 58320060164EE3AC00B46F45 /* 187-pencil.png */; };
+		58320063164EE3AC00B46F45 /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 58320060164EE3AC00B46F45 /* 187-pencil.png */; };
+		58320064164EE3AC00B46F45 /* 187-pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58320061164EE3AC00B46F45 /* 187-pencil@2x.png */; };
+		58320065164EE3AC00B46F45 /* 187-pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58320061164EE3AC00B46F45 /* 187-pencil@2x.png */; };
+		585D3F8C164F12F300EDB52D /* MudAliasesSelectVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 585D3F8B164F12F300EDB52D /* MudAliasesSelectVariable.m */; };
+		585D3F8D164F12F300EDB52D /* MudAliasesSelectVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 585D3F8B164F12F300EDB52D /* MudAliasesSelectVariable.m */; };
+		585D3FF61650C78200EDB52D /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 585D3FF51650C78200EDB52D /* icon72.png */; };
+		585D3FF91650C78A00EDB52D /* icon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 585D3FF81650C78900EDB52D /* icon144.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MudClientIpad4AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudClientIpad4AppDelegate.h; path = Classes/MudClientIpad4AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MudClientIpad4AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudClientIpad4AppDelegate.m; path = Classes/MudClientIpad4AppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2614EF06133C113500E6262D /* MudClientIpad4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MudClientIpad4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2614EF18133C120C00E6262D /* mudclientipad4-1.5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-1.5.xcdatamodel"; sourceTree = "<group>"; };
+		262CD856123EFDF700733BF1 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		262CD85C123F011F00733BF1 /* list_accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_accept.png; sourceTree = "<group>"; };
+		262CD879123F024E00733BF1 /* list_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_go.png; sourceTree = "<group>"; };
+		262CD908123F0FB500733BF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		262D0ABB15BEFBE400D837E3 /* Rules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rules.plist; sourceTree = "<group>"; };
+		2635505912462EB90011A894 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		264307C0138DA460004B230B /* circleRedLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleRedLine.png; sourceTree = "<group>"; };
+		2647F6C8132DD3DD00AF03FC /* mud_list_12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 0; path = mud_list_12.txt; sourceTree = "<group>"; };
+		2656C5C212645A150083E9E8 /* MudDataVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataVariables.h; path = ../MudDataVariables.h; sourceTree = "<group>"; };
+		2656C5C312645A150083E9E8 /* MudDataVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataVariables.m; path = ../MudDataVariables.m; sourceTree = "<group>"; };
+		2656C5C812645A150083E9E8 /* MudDataMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataMacros.h; path = ../MudDataMacros.h; sourceTree = "<group>"; };
+		2656C5C912645A150083E9E8 /* MudDataMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudDataMacros.m; sourceTree = SOURCE_ROOT; };
+		2656C5CA12645A150083E9E8 /* MudDataServerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataServerList.h; path = ../MudDataServerList.h; sourceTree = "<group>"; };
+		2656C5CB12645A150083E9E8 /* MudDataServerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataServerList.m; path = ../MudDataServerList.m; sourceTree = "<group>"; };
+		2656C5CC12645A150083E9E8 /* MudDataPreviousCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataPreviousCommands.h; path = ../MudDataPreviousCommands.h; sourceTree = "<group>"; };
+		2656C5CD12645A150083E9E8 /* MudDataPreviousCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataPreviousCommands.m; path = ../MudDataPreviousCommands.m; sourceTree = "<group>"; };
+		2656C5CE12645A150083E9E8 /* MudDataTriggers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataTriggers.h; path = ../MudDataTriggers.h; sourceTree = "<group>"; };
+		2656C5CF12645A150083E9E8 /* MudDataTriggers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataTriggers.m; path = ../MudDataTriggers.m; sourceTree = "<group>"; };
+		2656C5D012645A150083E9E8 /* MudDataSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataSessionData.h; path = ../MudDataSessionData.h; sourceTree = "<group>"; };
+		2656C5D112645A150083E9E8 /* MudDataSessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataSessionData.m; path = ../MudDataSessionData.m; sourceTree = "<group>"; };
+		2656C5D212645A150083E9E8 /* MudDataSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataSessions.h; path = ../MudDataSessions.h; sourceTree = "<group>"; };
+		2656C5D312645A150083E9E8 /* MudDataSessions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataSessions.m; path = ../MudDataSessions.m; sourceTree = "<group>"; };
+		2662AF591242BFBA000BE68E /* edit-redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-redo.png"; sourceTree = "<group>"; };
+		2662AF741242C7D3000BE68E /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		2662AF751242C7D3000BE68E /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		2662AF761242C7D3000BE68E /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		2662AF771242C7D3000BE68E /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		2662AF781242C7D3000BE68E /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		2662AF791242C7D3000BE68E /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		2666BC9B121FCCB7001C2A4B /* 104-index-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "104-index-cards.png"; sourceTree = "<group>"; };
+		2666BC9D121FCCB7001C2A4B /* 106-sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders.png"; sourceTree = "<group>"; };
+		2666BD0B121FCCB7001C2A4B /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		26691F5E125B81F4001C58E1 /* configure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configure.png; sourceTree = "<group>"; };
+		26691F5F125B81F4001C58E1 /* connections.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connections.png; sourceTree = "<group>"; };
+		266920E3125BEEC5001C58E1 /* MudTranscriptList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudTranscriptList.h; sourceTree = "<group>"; };
+		266920E4125BEEC5001C58E1 /* MudTranscriptList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudTranscriptList.m; sourceTree = "<group>"; };
+		26692163125C0CFC001C58E1 /* MudTranscriptDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudTranscriptDetail.h; sourceTree = "<group>"; };
+		26692164125C0CFC001C58E1 /* MudTranscriptDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudTranscriptDetail.m; sourceTree = "<group>"; };
+		268BCC3D135C33D90068E353 /* NewConnectionFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewConnectionFont.h; sourceTree = "<group>"; };
+		268BCC3E135C33D90068E353 /* NewConnectionFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewConnectionFont.m; sourceTree = "<group>"; };
+		268BCC43135C34D50068E353 /* mudclientipad4-1.55.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-1.55.xcdatamodel"; sourceTree = "<group>"; };
+		26918F0F133DD25600D3ECB2 /* MudDataMacroSteps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataMacroSteps.h; path = ../MudDataMacroSteps.h; sourceTree = "<group>"; };
+		26918F10133DD25600D3ECB2 /* MudDataMacroSteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataMacroSteps.m; path = ../MudDataMacroSteps.m; sourceTree = "<group>"; };
+		26918F16133DD26E00D3ECB2 /* MudMacroStepDelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudMacroStepDelay.h; sourceTree = "<group>"; };
+		26918F17133DD26E00D3ECB2 /* MudMacroStepDelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudMacroStepDelay.m; sourceTree = "<group>"; };
+		26960364134AD4F3001030D6 /* introPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = introPage.h; sourceTree = "<group>"; };
+		26960365134AD4F3001030D6 /* introPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = introPage.m; sourceTree = "<group>"; };
+		269BC6A112169B5D006EC431 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		26B5E98411FEAB3B00B9DB2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		26B5E98811FEAB7D00B9DB2D /* mudclientipad4-1.2.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; fileEncoding = 4; path = "mudclientipad4-1.2.xcdatamodel"; sourceTree = "<group>"; };
+		26BD93971234EE2B00DC24BA /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		26C1911E13306042000EC46C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26C77C5B13554D0F009D4E96 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugLog.h; path = Classes/DebugLog.h; sourceTree = "<group>"; };
+		26C77C5C13554D0F009D4E96 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugLog.m; path = Classes/DebugLog.m; sourceTree = "<group>"; };
+		26C8229C1245F5970000B0E7 /* ButtonPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonPanel.h; path = Classes/ButtonPanel.h; sourceTree = "<group>"; };
+		26C8229D1245F5970000B0E7 /* ButtonPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonPanel.m; path = Classes/ButtonPanel.m; sourceTree = "<group>"; };
+		26C822A01245F5970000B0E7 /* libtelnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libtelnet.c; path = Classes/libtelnet.c; sourceTree = "<group>"; };
+		26C822A11245F5970000B0E7 /* libtelnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = libtelnet.h; path = Classes/libtelnet.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		26C822A21245F5970000B0E7 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macros.h; path = Classes/Macros.h; sourceTree = "<group>"; };
+		26C822A51245F5970000B0E7 /* MudAddButtonAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudAddButtonAction.h; path = Classes/MudAddButtonAction.h; sourceTree = "<group>"; };
+		26C822A61245F5970000B0E7 /* MudAddButtonAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudAddButtonAction.m; path = Classes/MudAddButtonAction.m; sourceTree = "<group>"; };
+		26C822A71245F5970000B0E7 /* MudAddConnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudAddConnections.h; path = Classes/MudAddConnections.h; sourceTree = "<group>"; };
+		26C822A81245F5970000B0E7 /* MudAddConnections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudAddConnections.m; path = Classes/MudAddConnections.m; sourceTree = "<group>"; };
+		26C822A91245F5970000B0E7 /* MudAddTriggerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudAddTriggerAction.h; path = Classes/MudAddTriggerAction.h; sourceTree = "<group>"; };
+		26C822AA1245F5970000B0E7 /* MudAddTriggerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudAddTriggerAction.m; path = Classes/MudAddTriggerAction.m; sourceTree = "<group>"; };
+		26C822AB1245F5970000B0E7 /* MudButtonRunMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudButtonRunMacro.h; path = Classes/MudButtonRunMacro.h; sourceTree = "<group>"; };
+		26C822AC1245F5970000B0E7 /* MudButtonRunMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudButtonRunMacro.m; path = Classes/MudButtonRunMacro.m; sourceTree = "<group>"; };
+		26C822AD1245F5970000B0E7 /* MudButtonsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudButtonsDetail.h; path = Classes/MudButtonsDetail.h; sourceTree = "<group>"; };
+		26C822AE1245F5970000B0E7 /* MudButtonsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudButtonsDetail.m; path = Classes/MudButtonsDetail.m; sourceTree = "<group>"; };
+		26C822AF1245F5970000B0E7 /* MudButtonSendText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudButtonSendText.h; path = Classes/MudButtonSendText.h; sourceTree = "<group>"; };
+		26C822B01245F5970000B0E7 /* MudButtonSendText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudButtonSendText.m; path = Classes/MudButtonSendText.m; sourceTree = "<group>"; };
+		26C822B11245F5970000B0E7 /* MudButtonsImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudButtonsImage.h; path = Classes/MudButtonsImage.h; sourceTree = "<group>"; };
+		26C822B21245F5970000B0E7 /* MudButtonsImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudButtonsImage.m; path = Classes/MudButtonsImage.m; sourceTree = "<group>"; };
+		26C822B31245F5970000B0E7 /* MudClientIpad4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudClientIpad4ViewController.h; path = Classes/MudClientIpad4ViewController.h; sourceTree = "<group>"; };
+		26C822B41245F5970000B0E7 /* MudClientIpad4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudClientIpad4ViewController.m; path = Classes/MudClientIpad4ViewController.m; sourceTree = "<group>"; };
+		26C822B51245F5970000B0E7 /* MudConnectionInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudConnectionInstance.h; path = Classes/MudConnectionInstance.h; sourceTree = "<group>"; };
+		26C822B61245F5970000B0E7 /* MudConnectionInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudConnectionInstance.m; path = Classes/MudConnectionInstance.m; sourceTree = "<group>"; };
+		26C822CA1245F5970000B0E7 /* MudInputFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudInputFooter.h; path = Classes/MudInputFooter.h; sourceTree = "<group>"; };
+		26C822CB1245F5970000B0E7 /* MudInputFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudInputFooter.m; path = Classes/MudInputFooter.m; sourceTree = "<group>"; };
+		26C822CC1245F5970000B0E7 /* MudMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacros.h; path = Classes/MudMacros.h; sourceTree = "<group>"; };
+		26C822CD1245F5970000B0E7 /* MudMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MudMacros.m; path = Classes/MudMacros.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		26C822CE1245F5970000B0E7 /* MudMacrosBranchLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosBranchLocation.h; path = Classes/MudMacrosBranchLocation.h; sourceTree = "<group>"; };
+		26C822CF1245F5970000B0E7 /* MudMacrosBranchLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MudMacrosBranchLocation.m; path = Classes/MudMacrosBranchLocation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		26C822D01245F5970000B0E7 /* MudMacrosDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosDetail.h; path = Classes/MudMacrosDetail.h; sourceTree = "<group>"; };
+		26C822D11245F5970000B0E7 /* MudMacrosDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MudMacrosDetail.m; path = Classes/MudMacrosDetail.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		26C822D21245F5970000B0E7 /* MudMacrosName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosName.h; path = Classes/MudMacrosName.h; sourceTree = "<group>"; };
+		26C822D31245F5970000B0E7 /* MudMacrosName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosName.m; path = Classes/MudMacrosName.m; sourceTree = "<group>"; };
+		26C822D41245F5970000B0E7 /* MudMacrosStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStep.h; path = Classes/MudMacrosStep.h; sourceTree = "<group>"; };
+		26C822D51245F5970000B0E7 /* MudMacrosStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStep.m; path = Classes/MudMacrosStep.m; sourceTree = "<group>"; };
+		26C822D61245F5970000B0E7 /* MudMacrosStepBranchVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepBranchVar.h; path = Classes/MudMacrosStepBranchVar.h; sourceTree = "<group>"; };
+		26C822D71245F5970000B0E7 /* MudMacrosStepBranchVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepBranchVar.m; path = Classes/MudMacrosStepBranchVar.m; sourceTree = "<group>"; };
+		26C822D81245F5970000B0E7 /* MudMacrosStepBranchVar2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepBranchVar2.h; path = Classes/MudMacrosStepBranchVar2.h; sourceTree = "<group>"; };
+		26C822D91245F5970000B0E7 /* MudMacrosStepBranchVar2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepBranchVar2.m; path = Classes/MudMacrosStepBranchVar2.m; sourceTree = "<group>"; };
+		26C822DA1245F5970000B0E7 /* MudMacrosStepLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepLabel.h; path = Classes/MudMacrosStepLabel.h; sourceTree = "<group>"; };
+		26C822DB1245F5970000B0E7 /* MudMacrosStepLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepLabel.m; path = Classes/MudMacrosStepLabel.m; sourceTree = "<group>"; };
+		26C822DC1245F5970000B0E7 /* MudMacrosStepRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepRun.h; path = Classes/MudMacrosStepRun.h; sourceTree = "<group>"; };
+		26C822DD1245F5970000B0E7 /* MudMacrosStepRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepRun.m; path = Classes/MudMacrosStepRun.m; sourceTree = "<group>"; };
+		26C822DE1245F5970000B0E7 /* MudMacrosStepVarAssMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVarAssMac.h; path = Classes/MudMacrosStepVarAssMac.h; sourceTree = "<group>"; };
+		26C822DF1245F5970000B0E7 /* MudMacrosStepVarAssMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVarAssMac.m; path = Classes/MudMacrosStepVarAssMac.m; sourceTree = "<group>"; };
+		26C822E01245F5970000B0E7 /* MudMacrosStepVarAssNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVarAssNum.h; path = Classes/MudMacrosStepVarAssNum.h; sourceTree = "<group>"; };
+		26C822E11245F5970000B0E7 /* MudMacrosStepVarAssNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVarAssNum.m; path = Classes/MudMacrosStepVarAssNum.m; sourceTree = "<group>"; };
+		26C822E21245F5970000B0E7 /* MudMacrosStepVarConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVarConst.h; path = Classes/MudMacrosStepVarConst.h; sourceTree = "<group>"; };
+		26C822E31245F5970000B0E7 /* MudMacrosStepVarConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVarConst.m; path = Classes/MudMacrosStepVarConst.m; sourceTree = "<group>"; };
+		26C822E41245F5970000B0E7 /* MudMacrosStepVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVariable.h; path = Classes/MudMacrosStepVariable.h; sourceTree = "<group>"; };
+		26C822E51245F5970000B0E7 /* MudMacrosStepVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVariable.m; path = Classes/MudMacrosStepVariable.m; sourceTree = "<group>"; };
+		26C822E61245F5970000B0E7 /* MudMacrosStepVariableModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVariableModifier.h; path = Classes/MudMacrosStepVariableModifier.h; sourceTree = "<group>"; };
+		26C822E71245F5970000B0E7 /* MudMacrosStepVariableModifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVariableModifier.m; path = Classes/MudMacrosStepVariableModifier.m; sourceTree = "<group>"; };
+		26C822E81245F5970000B0E7 /* MudMacrosStepVarVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudMacrosStepVarVar.h; path = Classes/MudMacrosStepVarVar.h; sourceTree = "<group>"; };
+		26C822E91245F5970000B0E7 /* MudMacrosStepVarVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudMacrosStepVarVar.m; path = Classes/MudMacrosStepVarVar.m; sourceTree = "<group>"; };
+		26C822EA1245F5970000B0E7 /* MudPreviousCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudPreviousCommands.h; path = Classes/MudPreviousCommands.h; sourceTree = "<group>"; };
+		26C822EB1245F5970000B0E7 /* MudPreviousCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudPreviousCommands.m; path = Classes/MudPreviousCommands.m; sourceTree = "<group>"; };
+		26C822EC1245F5970000B0E7 /* MudSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudSession.h; path = Classes/MudSession.h; sourceTree = "<group>"; };
+		26C822ED1245F5970000B0E7 /* MudSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudSession.m; path = Classes/MudSession.m; sourceTree = "<group>"; };
+		26C822EE1245F5970000B0E7 /* MudSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudSettings.h; path = Classes/MudSettings.h; sourceTree = "<group>"; };
+		26C822EF1245F5970000B0E7 /* MudSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudSettings.m; path = Classes/MudSettings.m; sourceTree = "<group>"; };
+		26C822F01245F5970000B0E7 /* MudStepFormattedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudStepFormattedText.h; path = Classes/MudStepFormattedText.h; sourceTree = "<group>"; };
+		26C822F11245F5970000B0E7 /* MudStepFormattedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudStepFormattedText.m; path = Classes/MudStepFormattedText.m; sourceTree = "<group>"; };
+		26C822F21245F5970000B0E7 /* MudStepFormattedTextVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudStepFormattedTextVar.h; path = Classes/MudStepFormattedTextVar.h; sourceTree = "<group>"; };
+		26C822F31245F5970000B0E7 /* MudStepFormattedTextVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudStepFormattedTextVar.m; path = Classes/MudStepFormattedTextVar.m; sourceTree = "<group>"; };
+		26C822F41245F5970000B0E7 /* MudTriggers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudTriggers.h; path = Classes/MudTriggers.h; sourceTree = "<group>"; };
+		26C822F51245F5970000B0E7 /* MudTriggers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudTriggers.m; path = Classes/MudTriggers.m; sourceTree = "<group>"; };
+		26C822F61245F5970000B0E7 /* MudTriggersDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudTriggersDetail.h; path = Classes/MudTriggersDetail.h; sourceTree = "<group>"; };
+		26C822F71245F5970000B0E7 /* MudTriggersDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudTriggersDetail.m; path = Classes/MudTriggersDetail.m; sourceTree = "<group>"; };
+		26C822F81245F5970000B0E7 /* MudVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudVariables.h; path = Classes/MudVariables.h; sourceTree = "<group>"; };
+		26C822F91245F5970000B0E7 /* MudVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudVariables.m; path = Classes/MudVariables.m; sourceTree = "<group>"; };
+		26C822FA1245F5970000B0E7 /* MudVariablesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudVariablesDetail.h; path = Classes/MudVariablesDetail.h; sourceTree = "<group>"; };
+		26C822FB1245F5970000B0E7 /* MudVariablesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudVariablesDetail.m; path = Classes/MudVariablesDetail.m; sourceTree = "<group>"; };
+		26C822FC1245F5970000B0E7 /* NetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkQueue.h; path = Classes/NetworkQueue.h; sourceTree = "<group>"; };
+		26C822FD1245F5970000B0E7 /* NetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkQueue.m; path = Classes/NetworkQueue.m; sourceTree = "<group>"; };
+		26C822FE1245F5970000B0E7 /* NewConnectionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewConnectionDetail.h; path = Classes/NewConnectionDetail.h; sourceTree = "<group>"; };
+		26C822FF1245F5970000B0E7 /* NewConnectionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewConnectionDetail.m; path = Classes/NewConnectionDetail.m; sourceTree = "<group>"; };
+		26C823001245F5970000B0E7 /* NewConnectionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewConnectionGroup.h; path = Classes/NewConnectionGroup.h; sourceTree = "<group>"; };
+		26C823011245F5970000B0E7 /* NewConnectionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewConnectionGroup.m; path = Classes/NewConnectionGroup.m; sourceTree = "<group>"; };
+		26C823021245F5970000B0E7 /* NewConnectionMudList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewConnectionMudList.h; path = Classes/NewConnectionMudList.h; sourceTree = "<group>"; };
+		26C823031245F5970000B0E7 /* NewConnectionMudList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewConnectionMudList.m; path = Classes/NewConnectionMudList.m; sourceTree = "<group>"; };
+		26C823041245F5970000B0E7 /* NewConnectionMudsByName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewConnectionMudsByName.h; path = Classes/NewConnectionMudsByName.h; sourceTree = "<group>"; };
+		26C823051245F5970000B0E7 /* NewConnectionMudsByName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewConnectionMudsByName.m; path = Classes/NewConnectionMudsByName.m; sourceTree = "<group>"; };
+		26C823081245F5970000B0E7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Reachability.h; sourceTree = "<group>"; };
+		26C823091245F5970000B0E7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Reachability.m; sourceTree = "<group>"; };
+		26C8230C1245F5970000B0E7 /* telnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = telnet.h; path = Classes/telnet.h; sourceTree = "<group>"; };
+		26C8230D1245F5970000B0E7 /* UIFont+CoreTextExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+CoreTextExtensions.h"; path = "Classes/UIFont+CoreTextExtensions.h"; sourceTree = "<group>"; };
+		26C8230E1245F5970000B0E7 /* UIFont+CoreTextExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+CoreTextExtensions.m"; path = "Classes/UIFont+CoreTextExtensions.m"; sourceTree = "<group>"; };
+		26C825791245F77E0000B0E7 /* MudClientIpad4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MudClientIpad4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C825841245F7B10000B0E7 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		26C87695135E942B00EAC82C /* Medievia.fon */ = {isa = PBXFileReference; lastKnownFileType = file; path = Medievia.fon; sourceTree = "<group>"; };
+		26C87696135E942B00EAC82C /* MedSansMono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MedSansMono.ttf; sourceTree = "<group>"; };
+		26C8771B135EA7BB00EAC82C /* MudDataSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataSettings.h; path = ../MudDataSettings.h; sourceTree = "<group>"; };
+		26C8771C135EA7BB00EAC82C /* MudDataSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataSettings.m; path = ../MudDataSettings.m; sourceTree = "<group>"; };
+		26C8771D135EA7BB00EAC82C /* MudDataCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataCharacters.h; path = ../MudDataCharacters.h; sourceTree = "<group>"; };
+		26C8771E135EA7BB00EAC82C /* MudDataCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataCharacters.m; path = ../MudDataCharacters.m; sourceTree = "<group>"; };
+		26C87796135EB48500EAC82C /* NewConnectionFontDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewConnectionFontDetail.h; sourceTree = "<group>"; };
+		26C87797135EB48500EAC82C /* NewConnectionFontDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewConnectionFontDetail.m; sourceTree = "<group>"; };
+		26EFD6E21262EB88007BEFEF /* nvtLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nvtLine.h; sourceTree = "<group>"; };
+		26EFD6E31262EB88007BEFEF /* nvtLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nvtLine.m; sourceTree = "<group>"; };
+		26F0590E13429106000680EB /* MudConnectionLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudConnectionLocale.h; sourceTree = "<group>"; };
+		26F0590F13429106000680EB /* MudConnectionLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudConnectionLocale.m; sourceTree = "<group>"; };
+		26F05A3A1342F1E0000680EB /* MudConnectionEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudConnectionEncoding.h; sourceTree = "<group>"; };
+		26F05A3B1342F1E0000680EB /* MudConnectionEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudConnectionEncoding.m; sourceTree = "<group>"; };
+		26FAE7FA135064500019FF91 /* MudDataButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataButtons.h; path = ../MudDataButtons.h; sourceTree = "<group>"; };
+		26FAE7FB135064500019FF91 /* MudDataButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataButtons.m; path = ../MudDataButtons.m; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A06B280145F15C6006D02E1 /* RegExpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExpTools.h; sourceTree = "<group>"; };
+		2A06B281145F15C6006D02E1 /* RegExpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExpTools.m; sourceTree = "<group>"; };
+		2A06F7A01480E2FB00679F3C /* MudDataTouchableTexts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MudDataTouchableTexts.h; path = Classes/MudDataTouchableTexts.h; sourceTree = "<group>"; };
+		2A06F7A11480E2FB00679F3C /* MudDataTouchableTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MudDataTouchableTexts.m; path = Classes/MudDataTouchableTexts.m; sourceTree = "<group>"; };
+		2A06F7A41480E55D00679F3C /* 10-arrows-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-arrows-in.png"; sourceTree = "<group>"; };
+		2A06F7A51480E55D00679F3C /* 10-arrows-in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-arrows-in@2x.png"; sourceTree = "<group>"; };
+		2A36AA0F1464E58D004FC11A /* mudclientipad4-1.56.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-1.56.xcdatamodel"; sourceTree = "<group>"; };
+		2A36AAF614659FDD004FC11A /* MudDataSpeedwalking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudDataSpeedwalking.h; sourceTree = "<group>"; };
+		2A36AAF714659FDD004FC11A /* MudDataSpeedwalking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudDataSpeedwalking.m; sourceTree = "<group>"; };
+		2A4568AA147A219700573D7C /* TouchableTexts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchableTexts.h; sourceTree = "<group>"; };
+		2A4568AB147A219700573D7C /* TouchableTexts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchableTexts.m; sourceTree = "<group>"; };
+		2A53DE1E15A7F7FB00DA6AC9 /* TeleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeleViewController.h; sourceTree = "<group>"; };
+		2A53DE1F15A7F7FB00DA6AC9 /* TeleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeleViewController.m; sourceTree = "<group>"; };
+		2A53DE2015A7F7FB00DA6AC9 /* TeleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeleViewController.xib; sourceTree = "<group>"; };
+		2A5860DB1599A89300E98EFB /* mudclientipad4-1.6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-1.6.xcdatamodel"; sourceTree = "<group>"; };
+		2A5860E61599BA1C00E98EFB /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		2A5860E81599BA2500E98EFB /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		2A5860F11599BD3800E98EFB /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		2A974369147E2B0300B75A51 /* 20-gear-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2@2x.png"; sourceTree = "<group>"; };
+		2A97436A147E2B0300B75A51 /* 59-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag.png"; sourceTree = "<group>"; };
+		2A97436B147E2B0300B75A51 /* 59-flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag@2x.png"; sourceTree = "<group>"; };
+		2A97436C147E2B0300B75A51 /* 96-book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book@2x.png"; sourceTree = "<group>"; };
+		2A97436D147E2B0300B75A51 /* 102-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk.png"; sourceTree = "<group>"; };
+		2A97436E147E2B0300B75A51 /* 102-walk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk@2x.png"; sourceTree = "<group>"; };
+		2A97436F147E2B0300B75A51 /* 104-index-cards@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "104-index-cards@2x.png"; sourceTree = "<group>"; };
+		2A974370147E2B0300B75A51 /* 106-sliders@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders@2x.png"; sourceTree = "<group>"; };
+		2A974382147E3A3C00B75A51 /* TouchableTextsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchableTextsDetail.h; path = Classes/TouchableTextsDetail.h; sourceTree = "<group>"; };
+		2A974383147E3A3C00B75A51 /* TouchableTextsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchableTextsDetail.m; path = Classes/TouchableTextsDetail.m; sourceTree = "<group>"; };
+		2ABA0A321467AA4D00D307A3 /* SpeedwalkingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeedwalkingList.h; path = Classes/SpeedwalkingList.h; sourceTree = "<group>"; };
+		2ABA0A331467AA4D00D307A3 /* SpeedwalkingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeedwalkingList.m; path = Classes/SpeedwalkingList.m; sourceTree = "<group>"; };
+		2ABA0A361467AA6100D307A3 /* SpeedwalkingDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeedwalkingDetail.h; path = Classes/SpeedwalkingDetail.h; sourceTree = "<group>"; };
+		2ABA0A371467AA6100D307A3 /* SpeedwalkingDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeedwalkingDetail.m; path = Classes/SpeedwalkingDetail.m; sourceTree = "<group>"; };
+		2AE42E1815AC4E4300A03BD6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		2AE42E1B15AC4E4300A03BD6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2AE42E1C15AC4E4300A03BD6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2AE42E1D15AC4E4300A03BD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32CA4F630368D1EE00C91783 /* MudClientIpad4_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudClientIpad4_Prefix.pch; sourceTree = "<group>"; };
+		4E14434917F816620095BA2A /* mudclientipad4-2.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-2.0.xcdatamodel"; sourceTree = "<group>"; };
+		4E641FC518098A4D007C5AA8 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		4E641FC618098A4D007C5AA8 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		4E6D50EC18095488005DBC1D /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		4E6D50EE18096547005DBC1D /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		4E6D50EF18096547005DBC1D /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		4E6D50F018096547005DBC1D /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		4E6D50F318097D4C005DBC1D /* InviteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteView.h; sourceTree = "<group>"; };
+		4E6D50F418097D4C005DBC1D /* InviteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteView.m; sourceTree = "<group>"; };
+		4EA0347617F538E7004BA174 /* SettingsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTool.h; sourceTree = "<group>"; };
+		4EA0347717F538E7004BA174 /* SettingsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTool.m; sourceTree = "<group>"; };
+		4EA034B417F5760E004BA174 /* RemoteServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteServer.h; sourceTree = "<group>"; };
+		4EA034B517F5760E004BA174 /* RemoteServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteServer.m; sourceTree = "<group>"; };
+		4EA034B817F57711004BA174 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4EA034BA17F5772D004BA174 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		5832003F164ED87100B46F45 /* MudAliases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudAliases.h; sourceTree = "<group>"; };
+		58320040164ED87100B46F45 /* MudAliases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudAliases.m; sourceTree = "<group>"; };
+		58320043164ED88200B46F45 /* MudAliasesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudAliasesDetail.h; sourceTree = "<group>"; };
+		58320044164ED88200B46F45 /* MudAliasesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudAliasesDetail.m; sourceTree = "<group>"; };
+		58320047164EDA7700B46F45 /* mudclientipad4-1. 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mudclientipad4-1. 8.xcdatamodel"; sourceTree = "<group>"; };
+		58320060164EE3AC00B46F45 /* 187-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "187-pencil.png"; sourceTree = "<group>"; };
+		58320061164EE3AC00B46F45 /* 187-pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "187-pencil@2x.png"; sourceTree = "<group>"; };
+		585D3F8A164F12F300EDB52D /* MudAliasesSelectVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MudAliasesSelectVariable.h; sourceTree = "<group>"; };
+		585D3F8B164F12F300EDB52D /* MudAliasesSelectVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MudAliasesSelectVariable.m; sourceTree = "<group>"; };
+		585D3FF51650C78200EDB52D /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		585D3FF81650C78900EDB52D /* icon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon144.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2614EEF9133C113500E6262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614EEFA133C113500E6262D /* CFNetwork.framework in Frameworks */,
+				2614EEFB133C113500E6262D /* Foundation.framework in Frameworks */,
+				2614EEFC133C113500E6262D /* UIKit.framework in Frameworks */,
+				2614EEFD133C113500E6262D /* CoreGraphics.framework in Frameworks */,
+				2614EEFE133C113500E6262D /* CoreData.framework in Frameworks */,
+				2614EEFF133C113500E6262D /* CoreText.framework in Frameworks */,
+				2614EF00133C113500E6262D /* libz.1.2.5.dylib in Frameworks */,
+				2614EF01133C113500E6262D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8256D1245F77E0000B0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA034BB17F5772E004BA174 /* MultipeerConnectivity.framework in Frameworks */,
+				4EA034B917F57711004BA174 /* MobileCoreServices.framework in Frameworks */,
+				26C1911F13306042000EC46C /* CFNetwork.framework in Frameworks */,
+				26C8256E1245F77E0000B0E7 /* Foundation.framework in Frameworks */,
+				26C8256F1245F77E0000B0E7 /* UIKit.framework in Frameworks */,
+				26C825701245F77E0000B0E7 /* CoreGraphics.framework in Frameworks */,
+				26C825711245F77E0000B0E7 /* CoreData.framework in Frameworks */,
+				26C825721245F77E0000B0E7 /* CoreText.framework in Frameworks */,
+				26C825731245F77E0000B0E7 /* libz.1.2.5.dylib in Frameworks */,
+				26C825741245F77E0000B0E7 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C825791245F77E0000B0E7 /* MudClientIpad4.app */,
+				26C825841245F7B10000B0E7 /* Entitlements.plist */,
+				2614EF06133C113500E6262D /* MudClientIpad4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2666BC8C121FCCB7001C2A4B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				58320060164EE3AC00B46F45 /* 187-pencil.png */,
+				58320061164EE3AC00B46F45 /* 187-pencil@2x.png */,
+				2A06F7A41480E55D00679F3C /* 10-arrows-in.png */,
+				2A06F7A51480E55D00679F3C /* 10-arrows-in@2x.png */,
+				2A974369147E2B0300B75A51 /* 20-gear-2@2x.png */,
+				2A97436A147E2B0300B75A51 /* 59-flag.png */,
+				2A97436B147E2B0300B75A51 /* 59-flag@2x.png */,
+				2A97436C147E2B0300B75A51 /* 96-book@2x.png */,
+				2A97436D147E2B0300B75A51 /* 102-walk.png */,
+				2A97436E147E2B0300B75A51 /* 102-walk@2x.png */,
+				2A97436F147E2B0300B75A51 /* 104-index-cards@2x.png */,
+				2A974370147E2B0300B75A51 /* 106-sliders@2x.png */,
+				264307C0138DA460004B230B /* circleRedLine.png */,
+				26691F5E125B81F4001C58E1 /* configure.png */,
+				26691F5F125B81F4001C58E1 /* connections.png */,
+				2635505912462EB90011A894 /* eye.png */,
+				2662AF741242C7D3000BE68E /* arrow-down.png */,
+				2662AF751242C7D3000BE68E /* arrow-left.png */,
+				2662AF761242C7D3000BE68E /* arrow-right.png */,
+				2662AF771242C7D3000BE68E /* arrow-up.png */,
+				2662AF781242C7D3000BE68E /* help.png */,
+				2662AF791242C7D3000BE68E /* history.png */,
+				2662AF591242BFBA000BE68E /* edit-redo.png */,
+				262CD879123F024E00733BF1 /* list_go.png */,
+				262CD85C123F011F00733BF1 /* list_accept.png */,
+				262CD856123EFDF700733BF1 /* 20-gear2.png */,
+				2666BC9B121FCCB7001C2A4B /* 104-index-cards.png */,
+				2666BC9D121FCCB7001C2A4B /* 106-sliders.png */,
+				2666BD0B121FCCB7001C2A4B /* 96-book.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		26691B9A1259B2C5001C58E1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				26C8229C1245F5970000B0E7 /* ButtonPanel.h */,
+				26C8229D1245F5970000B0E7 /* ButtonPanel.m */,
+				26C822AB1245F5970000B0E7 /* MudButtonRunMacro.h */,
+				26C822AC1245F5970000B0E7 /* MudButtonRunMacro.m */,
+				26C822AD1245F5970000B0E7 /* MudButtonsDetail.h */,
+				26C822AE1245F5970000B0E7 /* MudButtonsDetail.m */,
+				26C822AF1245F5970000B0E7 /* MudButtonSendText.h */,
+				26C822B01245F5970000B0E7 /* MudButtonSendText.m */,
+				26C822B11245F5970000B0E7 /* MudButtonsImage.h */,
+				26C822B21245F5970000B0E7 /* MudButtonsImage.m */,
+				26C822A51245F5970000B0E7 /* MudAddButtonAction.h */,
+				26C822A61245F5970000B0E7 /* MudAddButtonAction.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		26691B9B1259B2D5001C58E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MudClientIpad4AppDelegate.h */,
+				1D3623250D0F684500981E51 /* MudClientIpad4AppDelegate.m */,
+				26C822FC1245F5970000B0E7 /* NetworkQueue.h */,
+				26C822FD1245F5970000B0E7 /* NetworkQueue.m */,
+				26C823081245F5970000B0E7 /* Reachability.h */,
+				26C823091245F5970000B0E7 /* Reachability.m */,
+				26C8230C1245F5970000B0E7 /* telnet.h */,
+				26C822A01245F5970000B0E7 /* libtelnet.c */,
+				26C822A11245F5970000B0E7 /* libtelnet.h */,
+				26C822CA1245F5970000B0E7 /* MudInputFooter.h */,
+				26C822CB1245F5970000B0E7 /* MudInputFooter.m */,
+				26C822EC1245F5970000B0E7 /* MudSession.h */,
+				26C822ED1245F5970000B0E7 /* MudSession.m */,
+				26C822B31245F5970000B0E7 /* MudClientIpad4ViewController.h */,
+				26C822B41245F5970000B0E7 /* MudClientIpad4ViewController.m */,
+				26EFD6E21262EB88007BEFEF /* nvtLine.h */,
+				26EFD6E31262EB88007BEFEF /* nvtLine.m */,
+				26960364134AD4F3001030D6 /* introPage.h */,
+				26960365134AD4F3001030D6 /* introPage.m */,
+				2A53DE1E15A7F7FB00DA6AC9 /* TeleViewController.h */,
+				2A53DE1F15A7F7FB00DA6AC9 /* TeleViewController.m */,
+				2A53DE2015A7F7FB00DA6AC9 /* TeleViewController.xib */,
+				4E6D50EE18096547005DBC1D /* HelpViewController.h */,
+				4E6D50EF18096547005DBC1D /* HelpViewController.m */,
+				4E6D50F018096547005DBC1D /* HelpViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		26691B9C1259B2E4001C58E1 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				26C822A21245F5970000B0E7 /* Macros.h */,
+				26C822F01245F5970000B0E7 /* MudStepFormattedText.h */,
+				26C822F11245F5970000B0E7 /* MudStepFormattedText.m */,
+				26C822F21245F5970000B0E7 /* MudStepFormattedTextVar.h */,
+				26C822F31245F5970000B0E7 /* MudStepFormattedTextVar.m */,
+				26C822CC1245F5970000B0E7 /* MudMacros.h */,
+				26C822CD1245F5970000B0E7 /* MudMacros.m */,
+				26C822CE1245F5970000B0E7 /* MudMacrosBranchLocation.h */,
+				26C822CF1245F5970000B0E7 /* MudMacrosBranchLocation.m */,
+				26C822D01245F5970000B0E7 /* MudMacrosDetail.h */,
+				26C822D11245F5970000B0E7 /* MudMacrosDetail.m */,
+				26C822D21245F5970000B0E7 /* MudMacrosName.h */,
+				26C822D31245F5970000B0E7 /* MudMacrosName.m */,
+				26C822D41245F5970000B0E7 /* MudMacrosStep.h */,
+				26C822D51245F5970000B0E7 /* MudMacrosStep.m */,
+				26C822D61245F5970000B0E7 /* MudMacrosStepBranchVar.h */,
+				26C822D71245F5970000B0E7 /* MudMacrosStepBranchVar.m */,
+				26C822D81245F5970000B0E7 /* MudMacrosStepBranchVar2.h */,
+				26C822D91245F5970000B0E7 /* MudMacrosStepBranchVar2.m */,
+				26C822DA1245F5970000B0E7 /* MudMacrosStepLabel.h */,
+				26C822DB1245F5970000B0E7 /* MudMacrosStepLabel.m */,
+				26C822DC1245F5970000B0E7 /* MudMacrosStepRun.h */,
+				26C822DD1245F5970000B0E7 /* MudMacrosStepRun.m */,
+				26C822DE1245F5970000B0E7 /* MudMacrosStepVarAssMac.h */,
+				26C822DF1245F5970000B0E7 /* MudMacrosStepVarAssMac.m */,
+				26C822E01245F5970000B0E7 /* MudMacrosStepVarAssNum.h */,
+				26C822E11245F5970000B0E7 /* MudMacrosStepVarAssNum.m */,
+				26C822E21245F5970000B0E7 /* MudMacrosStepVarConst.h */,
+				26C822E31245F5970000B0E7 /* MudMacrosStepVarConst.m */,
+				26C822E41245F5970000B0E7 /* MudMacrosStepVariable.h */,
+				26C822E51245F5970000B0E7 /* MudMacrosStepVariable.m */,
+				26C822E61245F5970000B0E7 /* MudMacrosStepVariableModifier.h */,
+				26C822E71245F5970000B0E7 /* MudMacrosStepVariableModifier.m */,
+				26C822E81245F5970000B0E7 /* MudMacrosStepVarVar.h */,
+				26C822E91245F5970000B0E7 /* MudMacrosStepVarVar.m */,
+				26918F16133DD26E00D3ECB2 /* MudMacroStepDelay.h */,
+				26918F17133DD26E00D3ECB2 /* MudMacroStepDelay.m */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		26691B9D1259B324001C58E1 /* Triggers */ = {
+			isa = PBXGroup;
+			children = (
+				26C822F41245F5970000B0E7 /* MudTriggers.h */,
+				26C822F51245F5970000B0E7 /* MudTriggers.m */,
+				26C822F61245F5970000B0E7 /* MudTriggersDetail.h */,
+				26C822F71245F5970000B0E7 /* MudTriggersDetail.m */,
+				26C822A91245F5970000B0E7 /* MudAddTriggerAction.h */,
+				26C822AA1245F5970000B0E7 /* MudAddTriggerAction.m */,
+			);
+			name = Triggers;
+			sourceTree = "<group>";
+		};
+		26691B9E1259B34A001C58E1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				26C822EE1245F5970000B0E7 /* MudSettings.h */,
+				26C822EF1245F5970000B0E7 /* MudSettings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		26691B9F1259B390001C58E1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2656C5EA12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld */,
+				2A06F7A01480E2FB00679F3C /* MudDataTouchableTexts.h */,
+				2A06F7A11480E2FB00679F3C /* MudDataTouchableTexts.m */,
+				2A36AAF614659FDD004FC11A /* MudDataSpeedwalking.h */,
+				2A36AAF714659FDD004FC11A /* MudDataSpeedwalking.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		26691BA01259B3DD001C58E1 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				26C822F81245F5970000B0E7 /* MudVariables.h */,
+				26C822F91245F5970000B0E7 /* MudVariables.m */,
+				26C822FA1245F5970000B0E7 /* MudVariablesDetail.h */,
+				26C822FB1245F5970000B0E7 /* MudVariablesDetail.m */,
+			);
+			name = Variables;
+			sourceTree = "<group>";
+		};
+		26691F2B125B0484001C58E1 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				26C822A71245F5970000B0E7 /* MudAddConnections.h */,
+				26C822A81245F5970000B0E7 /* MudAddConnections.m */,
+				26C822FE1245F5970000B0E7 /* NewConnectionDetail.h */,
+				26C822FF1245F5970000B0E7 /* NewConnectionDetail.m */,
+				26C823001245F5970000B0E7 /* NewConnectionGroup.h */,
+				26C823011245F5970000B0E7 /* NewConnectionGroup.m */,
+				26C823021245F5970000B0E7 /* NewConnectionMudList.h */,
+				26C823031245F5970000B0E7 /* NewConnectionMudList.m */,
+				26C823041245F5970000B0E7 /* NewConnectionMudsByName.h */,
+				26C823051245F5970000B0E7 /* NewConnectionMudsByName.m */,
+				26C822B61245F5970000B0E7 /* MudConnectionInstance.m */,
+				26C822EA1245F5970000B0E7 /* MudPreviousCommands.h */,
+				26C822B51245F5970000B0E7 /* MudConnectionInstance.h */,
+				26C822EB1245F5970000B0E7 /* MudPreviousCommands.m */,
+				266920E3125BEEC5001C58E1 /* MudTranscriptList.h */,
+				266920E4125BEEC5001C58E1 /* MudTranscriptList.m */,
+				26692163125C0CFC001C58E1 /* MudTranscriptDetail.h */,
+				26692164125C0CFC001C58E1 /* MudTranscriptDetail.m */,
+				26F0590E13429106000680EB /* MudConnectionLocale.h */,
+				26F0590F13429106000680EB /* MudConnectionLocale.m */,
+				26F05A3A1342F1E0000680EB /* MudConnectionEncoding.h */,
+				26F05A3B1342F1E0000680EB /* MudConnectionEncoding.m */,
+				268BCC3D135C33D90068E353 /* NewConnectionFont.h */,
+				268BCC3E135C33D90068E353 /* NewConnectionFont.m */,
+				26C87796135EB48500EAC82C /* NewConnectionFontDetail.h */,
+				26C87797135EB48500EAC82C /* NewConnectionFontDetail.m */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		26B21293132EFB2B000472E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				26C77C5B13554D0F009D4E96 /* DebugLog.h */,
+				26C77C5C13554D0F009D4E96 /* DebugLog.m */,
+				26C8230D1245F5970000B0E7 /* UIFont+CoreTextExtensions.h */,
+				26C8230E1245F5970000B0E7 /* UIFont+CoreTextExtensions.m */,
+				2A06B280145F15C6006D02E1 /* RegExpTools.h */,
+				2A06B281145F15C6006D02E1 /* RegExpTools.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		26C822981245F5820000B0E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034B717F57613004BA174 /* Tools */,
+				26691B9B1259B2D5001C58E1 /* Main */,
+				5832003D164ED84100B46F45 /* Aliases */,
+				26B21293132EFB2B000472E5 /* Utilities */,
+				26691F2B125B0484001C58E1 /* Character */,
+				2ABA0A2F1467A9D100D307A3 /* Speedwalking */,
+				2ABA0A311467A9E800D307A3 /* TouchableTexts */,
+				26691BA01259B3DD001C58E1 /* Variables */,
+				26691B9E1259B34A001C58E1 /* Settings */,
+				26691B9D1259B324001C58E1 /* Triggers */,
+				26691B9C1259B2E4001C58E1 /* Macro */,
+				26691B9A1259B2C5001C58E1 /* Buttons */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4E641FC518098A4D007C5AA8 /* icon76.png */,
+				4E641FC618098A4D007C5AA8 /* icon152.png */,
+				4E6D50EC18095488005DBC1D /* Default-Portrait~ipad.png */,
+				585D3FF81650C78900EDB52D /* icon144.png */,
+				585D3FF51650C78200EDB52D /* icon72.png */,
+				262D0ABB15BEFBE400D837E3 /* Rules.plist */,
+				26C822981245F5820000B0E7 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				26691B9F1259B390001C58E1 /* CoreData */,
+				32CA4F630368D1EE00C91783 /* MudClientIpad4_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A5860F11599BD3800E98EFB /* Default-Landscape~ipad.png */,
+				2A5860E81599BA2500E98EFB /* Default-Landscape@2x~ipad.png */,
+				2A5860E61599BA1C00E98EFB /* Default-Portrait@2x~ipad.png */,
+				26C87695135E942B00EAC82C /* Medievia.fon */,
+				26C87696135E942B00EAC82C /* MedSansMono.ttf */,
+				2647F6C8132DD3DD00AF03FC /* mud_list_12.txt */,
+				2666BC8C121FCCB7001C2A4B /* icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034BA17F5772D004BA174 /* MultipeerConnectivity.framework */,
+				4EA034B817F57711004BA174 /* MobileCoreServices.framework */,
+				26C1911E13306042000EC46C /* CFNetwork.framework */,
+				26BD93971234EE2B00DC24BA /* libz.1.2.5.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				26B5E98411FEAB3B00B9DB2D /* CoreData.framework */,
+				269BC6A112169B5D006EC431 /* CoreText.framework */,
+				262CD908123F0FB500733BF1 /* SystemConfiguration.framework */,
+				2AE42E1815AC4E4300A03BD6 /* Cocoa.framework */,
+				2AE42E1A15AC4E4300A03BD6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ABA0A2F1467A9D100D307A3 /* Speedwalking */ = {
+			isa = PBXGroup;
+			children = (
+				2ABA0A321467AA4D00D307A3 /* SpeedwalkingList.h */,
+				2ABA0A331467AA4D00D307A3 /* SpeedwalkingList.m */,
+				2ABA0A361467AA6100D307A3 /* SpeedwalkingDetail.h */,
+				2ABA0A371467AA6100D307A3 /* SpeedwalkingDetail.m */,
+			);
+			name = Speedwalking;
+			sourceTree = "<group>";
+		};
+		2ABA0A311467A9E800D307A3 /* TouchableTexts */ = {
+			isa = PBXGroup;
+			children = (
+				2A4568AA147A219700573D7C /* TouchableTexts.h */,
+				2A4568AB147A219700573D7C /* TouchableTexts.m */,
+				2A974382147E3A3C00B75A51 /* TouchableTextsDetail.h */,
+				2A974383147E3A3C00B75A51 /* TouchableTextsDetail.m */,
+			);
+			name = TouchableTexts;
+			sourceTree = "<group>";
+		};
+		2AE42E1A15AC4E4300A03BD6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AE42E1B15AC4E4300A03BD6 /* AppKit.framework */,
+				2AE42E1C15AC4E4300A03BD6 /* CoreData.framework */,
+				2AE42E1D15AC4E4300A03BD6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4EA034B717F57613004BA174 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034B417F5760E004BA174 /* RemoteServer.h */,
+				4EA034B517F5760E004BA174 /* RemoteServer.m */,
+				4EA0347617F538E7004BA174 /* SettingsTool.h */,
+				4EA0347717F538E7004BA174 /* SettingsTool.m */,
+				4E6D50F318097D4C005DBC1D /* InviteView.h */,
+				4E6D50F418097D4C005DBC1D /* InviteView.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		5832003D164ED84100B46F45 /* Aliases */ = {
+			isa = PBXGroup;
+			children = (
+				5832003F164ED87100B46F45 /* MudAliases.h */,
+				58320040164ED87100B46F45 /* MudAliases.m */,
+				58320043164ED88200B46F45 /* MudAliasesDetail.h */,
+				58320044164ED88200B46F45 /* MudAliasesDetail.m */,
+				585D3F8A164F12F300EDB52D /* MudAliasesSelectVariable.h */,
+				585D3F8B164F12F300EDB52D /* MudAliasesSelectVariable.m */,
+			);
+			name = Aliases;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2614ECF1133C113500E6262D /* mudclient ssl enabled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2614EF02133C113500E6262D /* Build configuration list for PBXNativeTarget "mudclient ssl enabled" */;
+			buildPhases = (
+				2614ECF2133C113500E6262D /* Resources */,
+				2614EEB7133C113500E6262D /* Sources */,
+				2614EEF9133C113500E6262D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mudclient ssl enabled";
+			productName = MudClientIpad4;
+			productReference = 2614EF06133C113500E6262D /* MudClientIpad4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C8236E1245F77E0000B0E7 /* mudclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C825751245F77E0000B0E7 /* Build configuration list for PBXNativeTarget "mudclient" */;
+			buildPhases = (
+				26C8236F1245F77E0000B0E7 /* Resources */,
+				26C825301245F77E0000B0E7 /* Sources */,
+				26C8256D1245F77E0000B0E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mudclient;
+			productName = MudClientIpad4;
+			productReference = 26C825791245F77E0000B0E7 /* MudClientIpad4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MudClientIpad4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C8236E1245F77E0000B0E7 /* mudclient */,
+				2614ECF1133C113500E6262D /* mudclient ssl enabled */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2614ECF2133C113500E6262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614ECF3133C113500E6262D /* 104-index-cards.png in Resources */,
+				2614ECF4133C113500E6262D /* 106-sliders.png in Resources */,
+				2614ECF5133C113500E6262D /* 96-book.png in Resources */,
+				2614EEA6133C113500E6262D /* 20-gear2.png in Resources */,
+				2614EEA7133C113500E6262D /* list_accept.png in Resources */,
+				2614EEA8133C113500E6262D /* list_go.png in Resources */,
+				2614EEA9133C113500E6262D /* edit-redo.png in Resources */,
+				2614EEAA133C113500E6262D /* arrow-down.png in Resources */,
+				2614EEAB133C113500E6262D /* arrow-left.png in Resources */,
+				2614EEAC133C113500E6262D /* arrow-right.png in Resources */,
+				2614EEAD133C113500E6262D /* arrow-up.png in Resources */,
+				2614EEAE133C113500E6262D /* help.png in Resources */,
+				2614EEAF133C113500E6262D /* history.png in Resources */,
+				2614EEB0133C113500E6262D /* eye.png in Resources */,
+				2614EEB4133C113500E6262D /* configure.png in Resources */,
+				2614EEB5133C113500E6262D /* connections.png in Resources */,
+				2614EEB6133C113500E6262D /* mud_list_12.txt in Resources */,
+				26C87699135E942B00EAC82C /* Medievia.fon in Resources */,
+				26C8769A135E942B00EAC82C /* MedSansMono.ttf in Resources */,
+				264307C2138DA460004B230B /* circleRedLine.png in Resources */,
+				2A974372147E2B0300B75A51 /* 20-gear-2@2x.png in Resources */,
+				2A974374147E2B0300B75A51 /* 59-flag.png in Resources */,
+				2A974376147E2B0300B75A51 /* 59-flag@2x.png in Resources */,
+				2A974378147E2B0300B75A51 /* 96-book@2x.png in Resources */,
+				2A97437A147E2B0300B75A51 /* 102-walk.png in Resources */,
+				2A97437C147E2B0300B75A51 /* 102-walk@2x.png in Resources */,
+				2A97437E147E2B0300B75A51 /* 104-index-cards@2x.png in Resources */,
+				2A974380147E2B0300B75A51 /* 106-sliders@2x.png in Resources */,
+				2A06F7A71480E55D00679F3C /* 10-arrows-in.png in Resources */,
+				2A06F7A91480E55D00679F3C /* 10-arrows-in@2x.png in Resources */,
+				2A53DE2415A7F7FC00DA6AC9 /* TeleViewController.xib in Resources */,
+				262D0AA615BE927E00D837E3 /* Entitlements.plist in Resources */,
+				262D0ABD15BEFBE400D837E3 /* Rules.plist in Resources */,
+				58320063164EE3AC00B46F45 /* 187-pencil.png in Resources */,
+				58320065164EE3AC00B46F45 /* 187-pencil@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C8236F1245F77E0000B0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C823701245F77E0000B0E7 /* 104-index-cards.png in Resources */,
+				26C823711245F77E0000B0E7 /* 106-sliders.png in Resources */,
+				26C823721245F77E0000B0E7 /* 96-book.png in Resources */,
+				4E641FC818098A4D007C5AA8 /* icon152.png in Resources */,
+				4E641FC718098A4D007C5AA8 /* icon76.png in Resources */,
+				4E6D50ED18095488005DBC1D /* Default-Portrait~ipad.png in Resources */,
+				4E6D50F218096547005DBC1D /* HelpViewController.xib in Resources */,
+				26C825241245F77E0000B0E7 /* 20-gear2.png in Resources */,
+				26C825251245F77E0000B0E7 /* list_accept.png in Resources */,
+				26C825261245F77E0000B0E7 /* list_go.png in Resources */,
+				26C825281245F77E0000B0E7 /* edit-redo.png in Resources */,
+				26C825291245F77E0000B0E7 /* arrow-down.png in Resources */,
+				26C8252A1245F77E0000B0E7 /* arrow-left.png in Resources */,
+				26C8252B1245F77E0000B0E7 /* arrow-right.png in Resources */,
+				26C8252C1245F77E0000B0E7 /* arrow-up.png in Resources */,
+				26C8252D1245F77E0000B0E7 /* help.png in Resources */,
+				26C8252E1245F77E0000B0E7 /* history.png in Resources */,
+				2635505A12462EB90011A894 /* eye.png in Resources */,
+				26691F60125B81F4001C58E1 /* configure.png in Resources */,
+				26691F61125B81F4001C58E1 /* connections.png in Resources */,
+				2647F6C9132DD3DD00AF03FC /* mud_list_12.txt in Resources */,
+				26C87697135E942B00EAC82C /* Medievia.fon in Resources */,
+				26C87698135E942B00EAC82C /* MedSansMono.ttf in Resources */,
+				264307C1138DA460004B230B /* circleRedLine.png in Resources */,
+				2A974371147E2B0300B75A51 /* 20-gear-2@2x.png in Resources */,
+				2A974373147E2B0300B75A51 /* 59-flag.png in Resources */,
+				2A974375147E2B0300B75A51 /* 59-flag@2x.png in Resources */,
+				2A974377147E2B0300B75A51 /* 96-book@2x.png in Resources */,
+				2A974379147E2B0300B75A51 /* 102-walk.png in Resources */,
+				2A97437B147E2B0300B75A51 /* 102-walk@2x.png in Resources */,
+				2A97437D147E2B0300B75A51 /* 104-index-cards@2x.png in Resources */,
+				2A97437F147E2B0300B75A51 /* 106-sliders@2x.png in Resources */,
+				2A06F7A61480E55D00679F3C /* 10-arrows-in.png in Resources */,
+				2A06F7A81480E55D00679F3C /* 10-arrows-in@2x.png in Resources */,
+				2A5860E71599BA1C00E98EFB /* Default-Portrait@2x~ipad.png in Resources */,
+				2A5860E91599BA2600E98EFB /* Default-Landscape@2x~ipad.png in Resources */,
+				2A5860F41599BD3900E98EFB /* Default-Landscape~ipad.png in Resources */,
+				2A53DE2315A7F7FC00DA6AC9 /* TeleViewController.xib in Resources */,
+				262D0AA515BE927E00D837E3 /* Entitlements.plist in Resources */,
+				262D0ABC15BEFBE400D837E3 /* Rules.plist in Resources */,
+				58320062164EE3AC00B46F45 /* 187-pencil.png in Resources */,
+				58320064164EE3AC00B46F45 /* 187-pencil@2x.png in Resources */,
+				585D3FF61650C78200EDB52D /* icon72.png in Resources */,
+				585D3FF91650C78A00EDB52D /* icon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2614EEB7133C113500E6262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614EEB8133C113500E6262D /* main.m in Sources */,
+				2614EEB9133C113500E6262D /* MudClientIpad4AppDelegate.m in Sources */,
+				2614EEBA133C113500E6262D /* mudclientipad4-1.2.xcdatamodeld in Sources */,
+				2614EEBB133C113500E6262D /* ButtonPanel.m in Sources */,
+				2614EEBD133C113500E6262D /* libtelnet.c in Sources */,
+				2614EEBF133C113500E6262D /* MudAddButtonAction.m in Sources */,
+				2614EEC0133C113500E6262D /* MudAddConnections.m in Sources */,
+				2614EEC1133C113500E6262D /* MudAddTriggerAction.m in Sources */,
+				2614EEC2133C113500E6262D /* MudButtonRunMacro.m in Sources */,
+				2614EEC3133C113500E6262D /* MudButtonsDetail.m in Sources */,
+				2614EEC4133C113500E6262D /* MudButtonSendText.m in Sources */,
+				2614EEC5133C113500E6262D /* MudButtonsImage.m in Sources */,
+				2614EEC6133C113500E6262D /* MudClientIpad4ViewController.m in Sources */,
+				2614EEC7133C113500E6262D /* MudConnectionInstance.m in Sources */,
+				2614EEC8133C113500E6262D /* MudInputFooter.m in Sources */,
+				2614EEC9133C113500E6262D /* MudMacros.m in Sources */,
+				2614EECA133C113500E6262D /* MudMacrosBranchLocation.m in Sources */,
+				2614EECB133C113500E6262D /* MudMacrosDetail.m in Sources */,
+				2614EECC133C113500E6262D /* MudMacrosName.m in Sources */,
+				2614EECD133C113500E6262D /* MudMacrosStep.m in Sources */,
+				2614EECE133C113500E6262D /* MudMacrosStepBranchVar.m in Sources */,
+				2614EECF133C113500E6262D /* MudMacrosStepBranchVar2.m in Sources */,
+				2614EED0133C113500E6262D /* MudMacrosStepLabel.m in Sources */,
+				2614EED1133C113500E6262D /* MudMacrosStepRun.m in Sources */,
+				2614EED2133C113500E6262D /* MudMacrosStepVarAssMac.m in Sources */,
+				2614EED3133C113500E6262D /* MudMacrosStepVarAssNum.m in Sources */,
+				2614EED4133C113500E6262D /* MudMacrosStepVarConst.m in Sources */,
+				2614EED5133C113500E6262D /* MudMacrosStepVariable.m in Sources */,
+				2614EED6133C113500E6262D /* MudMacrosStepVariableModifier.m in Sources */,
+				2614EED7133C113500E6262D /* MudMacrosStepVarVar.m in Sources */,
+				2614EED8133C113500E6262D /* MudPreviousCommands.m in Sources */,
+				2614EED9133C113500E6262D /* MudSession.m in Sources */,
+				2614EEDA133C113500E6262D /* MudSettings.m in Sources */,
+				2614EEDB133C113500E6262D /* MudStepFormattedText.m in Sources */,
+				2614EEDC133C113500E6262D /* MudStepFormattedTextVar.m in Sources */,
+				2614EEDD133C113500E6262D /* MudTriggers.m in Sources */,
+				2614EEDE133C113500E6262D /* MudTriggersDetail.m in Sources */,
+				2614EEDF133C113500E6262D /* MudVariables.m in Sources */,
+				2614EEE0133C113500E6262D /* MudVariablesDetail.m in Sources */,
+				2614EEE1133C113500E6262D /* NetworkQueue.m in Sources */,
+				2614EEE2133C113500E6262D /* NewConnectionDetail.m in Sources */,
+				2614EEE3133C113500E6262D /* NewConnectionGroup.m in Sources */,
+				2614EEE4133C113500E6262D /* NewConnectionMudList.m in Sources */,
+				2614EEE5133C113500E6262D /* NewConnectionMudsByName.m in Sources */,
+				2614EEE7133C113500E6262D /* Reachability.m in Sources */,
+				2614EEE9133C113500E6262D /* UIFont+CoreTextExtensions.m in Sources */,
+				2614EEEA133C113500E6262D /* MudTranscriptList.m in Sources */,
+				2614EEEB133C113500E6262D /* MudTranscriptDetail.m in Sources */,
+				2614EEEC133C113500E6262D /* nvtLine.m in Sources */,
+				2614EEEF133C113500E6262D /* MudDataVariables.m in Sources */,
+				2614EEF2133C113500E6262D /* MudDataMacros.m in Sources */,
+				2614EEF3133C113500E6262D /* MudDataServerList.m in Sources */,
+				2614EEF4133C113500E6262D /* MudDataPreviousCommands.m in Sources */,
+				2614EEF5133C113500E6262D /* MudDataTriggers.m in Sources */,
+				2614EEF6133C113500E6262D /* MudDataSessionData.m in Sources */,
+				2614EEF7133C113500E6262D /* MudDataSessions.m in Sources */,
+				2614EEF8133C113500E6262D /* mudclientipad4-1.2.xcdatamodel in Sources */,
+				2614EF1A133C122900E6262D /* mudclientipad4-1.5.xcdatamodel in Sources */,
+				26918F12133DD25600D3ECB2 /* MudDataMacroSteps.m in Sources */,
+				26918F19133DD26E00D3ECB2 /* MudMacroStepDelay.m in Sources */,
+				26F0591113429106000680EB /* MudConnectionLocale.m in Sources */,
+				26F05A3D1342F1E0000680EB /* MudConnectionEncoding.m in Sources */,
+				26960366134AD4F3001030D6 /* introPage.m in Sources */,
+				26FAE7FC135064500019FF91 /* MudDataButtons.m in Sources */,
+				26C77C5E13554D0F009D4E96 /* DebugLog.m in Sources */,
+				268BCC40135C33D90068E353 /* NewConnectionFont.m in Sources */,
+				26C87721135EA7BB00EAC82C /* MudDataSettings.m in Sources */,
+				26C87722135EA7BB00EAC82C /* MudDataCharacters.m in Sources */,
+				26C87799135EB48500EAC82C /* NewConnectionFontDetail.m in Sources */,
+				2A06B283145F15C7006D02E1 /* RegExpTools.m in Sources */,
+				2A36AAFB14659FE0004FC11A /* MudDataSpeedwalking.m in Sources */,
+				2ABA0A351467AA4D00D307A3 /* SpeedwalkingList.m in Sources */,
+				2ABA0A391467AA6100D307A3 /* SpeedwalkingDetail.m in Sources */,
+				2A4568AD147A219700573D7C /* TouchableTexts.m in Sources */,
+				2A974385147E3A3C00B75A51 /* TouchableTextsDetail.m in Sources */,
+				2A06F7A31480E2FB00679F3C /* MudDataTouchableTexts.m in Sources */,
+				2A53DE2215A7F7FC00DA6AC9 /* TeleViewController.m in Sources */,
+				58320042164ED87100B46F45 /* MudAliases.m in Sources */,
+				58320046164ED88200B46F45 /* MudAliasesDetail.m in Sources */,
+				585D3F8D164F12F300EDB52D /* MudAliasesSelectVariable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C825301245F77E0000B0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C825311245F77E0000B0E7 /* main.m in Sources */,
+				26C825321245F77E0000B0E7 /* MudClientIpad4AppDelegate.m in Sources */,
+				2656C5EB12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld in Sources */,
+				26C825351245F77E0000B0E7 /* ButtonPanel.m in Sources */,
+				26C825371245F77E0000B0E7 /* libtelnet.c in Sources */,
+				4E6D50F518097D4C005DBC1D /* InviteView.m in Sources */,
+				26C825391245F77E0000B0E7 /* MudAddButtonAction.m in Sources */,
+				26C8253A1245F77E0000B0E7 /* MudAddConnections.m in Sources */,
+				26C8253B1245F77E0000B0E7 /* MudAddTriggerAction.m in Sources */,
+				26C8253C1245F77E0000B0E7 /* MudButtonRunMacro.m in Sources */,
+				26C8253D1245F77E0000B0E7 /* MudButtonsDetail.m in Sources */,
+				26C8253E1245F77E0000B0E7 /* MudButtonSendText.m in Sources */,
+				26C8253F1245F77E0000B0E7 /* MudButtonsImage.m in Sources */,
+				26C825401245F77E0000B0E7 /* MudClientIpad4ViewController.m in Sources */,
+				26C825411245F77E0000B0E7 /* MudConnectionInstance.m in Sources */,
+				26C8254B1245F77E0000B0E7 /* MudInputFooter.m in Sources */,
+				26C8254C1245F77E0000B0E7 /* MudMacros.m in Sources */,
+				26C8254D1245F77E0000B0E7 /* MudMacrosBranchLocation.m in Sources */,
+				26C8254E1245F77E0000B0E7 /* MudMacrosDetail.m in Sources */,
+				26C8254F1245F77E0000B0E7 /* MudMacrosName.m in Sources */,
+				26C825501245F77E0000B0E7 /* MudMacrosStep.m in Sources */,
+				26C825511245F77E0000B0E7 /* MudMacrosStepBranchVar.m in Sources */,
+				26C825521245F77E0000B0E7 /* MudMacrosStepBranchVar2.m in Sources */,
+				26C825531245F77E0000B0E7 /* MudMacrosStepLabel.m in Sources */,
+				26C825541245F77E0000B0E7 /* MudMacrosStepRun.m in Sources */,
+				26C825551245F77E0000B0E7 /* MudMacrosStepVarAssMac.m in Sources */,
+				26C825561245F77E0000B0E7 /* MudMacrosStepVarAssNum.m in Sources */,
+				26C825571245F77E0000B0E7 /* MudMacrosStepVarConst.m in Sources */,
+				26C825581245F77E0000B0E7 /* MudMacrosStepVariable.m in Sources */,
+				26C825591245F77E0000B0E7 /* MudMacrosStepVariableModifier.m in Sources */,
+				26C8255A1245F77E0000B0E7 /* MudMacrosStepVarVar.m in Sources */,
+				26C8255B1245F77E0000B0E7 /* MudPreviousCommands.m in Sources */,
+				26C8255C1245F77E0000B0E7 /* MudSession.m in Sources */,
+				26C8255D1245F77E0000B0E7 /* MudSettings.m in Sources */,
+				4EA0347817F538E7004BA174 /* SettingsTool.m in Sources */,
+				26C8255E1245F77E0000B0E7 /* MudStepFormattedText.m in Sources */,
+				26C8255F1245F77E0000B0E7 /* MudStepFormattedTextVar.m in Sources */,
+				26C825601245F77E0000B0E7 /* MudTriggers.m in Sources */,
+				26C825611245F77E0000B0E7 /* MudTriggersDetail.m in Sources */,
+				26C825621245F77E0000B0E7 /* MudVariables.m in Sources */,
+				26C825631245F77E0000B0E7 /* MudVariablesDetail.m in Sources */,
+				26C825641245F77E0000B0E7 /* NetworkQueue.m in Sources */,
+				26C825651245F77E0000B0E7 /* NewConnectionDetail.m in Sources */,
+				26C825661245F77E0000B0E7 /* NewConnectionGroup.m in Sources */,
+				26C825671245F77E0000B0E7 /* NewConnectionMudList.m in Sources */,
+				26C825681245F77E0000B0E7 /* NewConnectionMudsByName.m in Sources */,
+				26C8256A1245F77E0000B0E7 /* Reachability.m in Sources */,
+				26C8256C1245F77E0000B0E7 /* UIFont+CoreTextExtensions.m in Sources */,
+				266920E5125BEEC5001C58E1 /* MudTranscriptList.m in Sources */,
+				26692165125C0CFC001C58E1 /* MudTranscriptDetail.m in Sources */,
+				26EFD6E41262EB88007BEFEF /* nvtLine.m in Sources */,
+				2656C5D612645A150083E9E8 /* MudDataVariables.m in Sources */,
+				2656C5D912645A150083E9E8 /* MudDataMacros.m in Sources */,
+				2656C5DA12645A150083E9E8 /* MudDataServerList.m in Sources */,
+				2656C5DB12645A150083E9E8 /* MudDataPreviousCommands.m in Sources */,
+				4EA034B617F5760E004BA174 /* RemoteServer.m in Sources */,
+				2656C5DC12645A150083E9E8 /* MudDataTriggers.m in Sources */,
+				2656C5DD12645A150083E9E8 /* MudDataSessionData.m in Sources */,
+				2656C5DE12645A150083E9E8 /* MudDataSessions.m in Sources */,
+				2656C5F112645B0A0083E9E8 /* mudclientipad4-1.2.xcdatamodel in Sources */,
+				2614EF19133C122800E6262D /* mudclientipad4-1.5.xcdatamodel in Sources */,
+				4E6D50F118096547005DBC1D /* HelpViewController.m in Sources */,
+				26918F11133DD25600D3ECB2 /* MudDataMacroSteps.m in Sources */,
+				26918F18133DD26E00D3ECB2 /* MudMacroStepDelay.m in Sources */,
+				26F0591013429106000680EB /* MudConnectionLocale.m in Sources */,
+				26F05A3C1342F1E0000680EB /* MudConnectionEncoding.m in Sources */,
+				26960367134AD4F3001030D6 /* introPage.m in Sources */,
+				26FAE7FD135064500019FF91 /* MudDataButtons.m in Sources */,
+				26C77C5D13554D0F009D4E96 /* DebugLog.m in Sources */,
+				268BCC3F135C33D90068E353 /* NewConnectionFont.m in Sources */,
+				26C8771F135EA7BB00EAC82C /* MudDataSettings.m in Sources */,
+				26C87720135EA7BB00EAC82C /* MudDataCharacters.m in Sources */,
+				26C87798135EB48500EAC82C /* NewConnectionFontDetail.m in Sources */,
+				2A06B282145F15C7006D02E1 /* RegExpTools.m in Sources */,
+				2A36AAFA14659FE0004FC11A /* MudDataSpeedwalking.m in Sources */,
+				2ABA0A341467AA4D00D307A3 /* SpeedwalkingList.m in Sources */,
+				2ABA0A381467AA6100D307A3 /* SpeedwalkingDetail.m in Sources */,
+				2A4568AC147A219700573D7C /* TouchableTexts.m in Sources */,
+				2A974384147E3A3C00B75A51 /* TouchableTextsDetail.m in Sources */,
+				2A06F7A21480E2FB00679F3C /* MudDataTouchableTexts.m in Sources */,
+				2A53DE2115A7F7FC00DA6AC9 /* TeleViewController.m in Sources */,
+				58320041164ED87100B46F45 /* MudAliases.m in Sources */,
+				58320045164ED88200B46F45 /* MudAliasesDetail.m in Sources */,
+				585D3F8C164F12F300EDB52D /* MudAliasesSelectVariable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2614EF03133C113500E6262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = MCSSL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MudClientIpad4-ssl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2614EF04133C113500E6262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Gary Barnett";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = MCSSL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MudClientIpad4-ssl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "2A4A8912-DA47-4176-99B5-E91D26758ED3";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2614EF05133C113500E6262D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = MCSSL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MudClientIpad4-ssl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		26C8235A1245F6EE0000B0E7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Gary Barnett";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				INFOPLIST_FILE = "MudClientIpad4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=*]" = "BDB103CE-BFC3-4D4A-8697-BB2C0C867835";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		26C825761245F77E0000B0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MudClientIpad4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26C825771245F77E0000B0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gary Barnett (9VQEE2YFPA)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MudClientIpad4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				PROVISIONING_PROFILE = "F8BBC821-A8E1-486A-898A-99DAFA8FEE35";
+				"PROVISIONING_PROFILE[sdk=*]" = "F8BBC821-A8E1-486A-898A-99DAFA8FEE35";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C825781245F77E0000B0E7 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Gary Barnett (9VQEE2YFPA)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MudClientIpad4_Prefix.pch;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MudClientIpad4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-DHAVE_ZLIB";
+				PRODUCT_NAME = MudClientIpad4;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "806403A1-B2EF-449A-924F-C7FFB26C0CB5";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Gary Barnett";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=*]" = "BDB103CE-BFC3-4D4A-8697-BB2C0C867835";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2614EF02133C113500E6262D /* Build configuration list for PBXNativeTarget "mudclient ssl enabled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2614EF03133C113500E6262D /* Debug */,
+				2614EF04133C113500E6262D /* Release */,
+				2614EF05133C113500E6262D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C825751245F77E0000B0E7 /* Build configuration list for PBXNativeTarget "mudclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C825761245F77E0000B0E7 /* Debug */,
+				26C825771245F77E0000B0E7 /* Release */,
+				26C825781245F77E0000B0E7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MudClientIpad4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				26C8235A1245F6EE0000B0E7 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2656C5EA12645ABB0083E9E8 /* mudclientipad4-1.2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4E14434917F816620095BA2A /* mudclientipad4-2.0.xcdatamodel */,
+				2A5860DB1599A89300E98EFB /* mudclientipad4-1.6.xcdatamodel */,
+				58320047164EDA7700B46F45 /* mudclientipad4-1. 8.xcdatamodel */,
+				26C8771B135EA7BB00EAC82C /* MudDataSettings.h */,
+				26C8771C135EA7BB00EAC82C /* MudDataSettings.m */,
+				26C8771D135EA7BB00EAC82C /* MudDataCharacters.h */,
+				26C8771E135EA7BB00EAC82C /* MudDataCharacters.m */,
+				26FAE7FA135064500019FF91 /* MudDataButtons.h */,
+				26FAE7FB135064500019FF91 /* MudDataButtons.m */,
+				26918F0F133DD25600D3ECB2 /* MudDataMacroSteps.h */,
+				26918F10133DD25600D3ECB2 /* MudDataMacroSteps.m */,
+				2656C5C212645A150083E9E8 /* MudDataVariables.h */,
+				2656C5C312645A150083E9E8 /* MudDataVariables.m */,
+				2656C5C812645A150083E9E8 /* MudDataMacros.h */,
+				2656C5C912645A150083E9E8 /* MudDataMacros.m */,
+				2656C5CA12645A150083E9E8 /* MudDataServerList.h */,
+				2656C5CB12645A150083E9E8 /* MudDataServerList.m */,
+				2656C5CC12645A150083E9E8 /* MudDataPreviousCommands.h */,
+				2656C5CD12645A150083E9E8 /* MudDataPreviousCommands.m */,
+				2656C5CE12645A150083E9E8 /* MudDataTriggers.h */,
+				2656C5CF12645A150083E9E8 /* MudDataTriggers.m */,
+				2656C5D012645A150083E9E8 /* MudDataSessionData.h */,
+				2656C5D112645A150083E9E8 /* MudDataSessionData.m */,
+				2656C5D212645A150083E9E8 /* MudDataSessions.h */,
+				2656C5D312645A150083E9E8 /* MudDataSessions.m */,
+				26B5E98811FEAB7D00B9DB2D /* mudclientipad4-1.2.xcdatamodel */,
+				2614EF18133C120C00E6262D /* mudclientipad4-1.5.xcdatamodel */,
+				268BCC43135C34D50068E353 /* mudclientipad4-1.55.xcdatamodel */,
+				2A36AA0F1464E58D004FC11A /* mudclientipad4-1.56.xcdatamodel */,
+			);
+			currentVersion = 4E14434917F816620095BA2A /* mudclientipad4-2.0.xcdatamodel */;
+			path = "mudclientipad4-1.2.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

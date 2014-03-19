@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1442FA17F6B4130095BA2A /* MenuViewControllerLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1442F917F6B4130095BA2A /* MenuViewControllerLandscape.xib */; };
+		4E1442FE17F6B42F0095BA2A /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1442FD17F6B42F0095BA2A /* MenuViewController.xib */; };
+		4E14430117F6D4900095BA2A /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E14430017F6D4900095BA2A /* ButtonViewController.m */; };
+		4E8F05B218035095002A43E7 /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05AE18035095002A43E7 /* icon76.png */; };
+		4E8F05B318035095002A43E7 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05AF18035095002A43E7 /* icon120.png */; };
+		4E8F05B418035095002A43E7 /* icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05B018035095002A43E7 /* icon152.png */; };
+		4E8F05B518035095002A43E7 /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05B118035095002A43E7 /* icon1024.png */; };
+		4E8F05B818035178002A43E7 /* MudRemoteiPadLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05B618035178002A43E7 /* MudRemoteiPadLandscape.png */; };
+		4E8F05B918035178002A43E7 /* MudRemoteiPadPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05B718035178002A43E7 /* MudRemoteiPadPortrait.png */; };
+		4E8F05C21803537F002A43E7 /* MudRemoteiPadLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05BE1803537F002A43E7 /* MudRemoteiPadLandscape@2x.png */; };
+		4E8F05C31803537F002A43E7 /* MudRemoteiPadPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05BF1803537F002A43E7 /* MudRemoteiPadPortrait@2x.png */; };
+		4E8F05C41803537F002A43E7 /* MudRemoteiPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05C01803537F002A43E7 /* MudRemoteiPhone4.png */; };
+		4E8F05C51803537F002A43E7 /* MudRemoteiPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05C11803537F002A43E7 /* MudRemoteiPhone5.png */; };
+		4E8F05C918035B3D002A43E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E8F05C818035B3D002A43E7 /* Default-568h@2x.png */; };
+		4EA0348617F57558004BA174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0348517F57558004BA174 /* Foundation.framework */; };
+		4EA0348817F57558004BA174 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0348717F57558004BA174 /* CoreGraphics.framework */; };
+		4EA0348A17F57558004BA174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0348917F57558004BA174 /* UIKit.framework */; };
+		4EA0349017F57558004BA174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0348E17F57558004BA174 /* InfoPlist.strings */; };
+		4EA0349217F57558004BA174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0349117F57558004BA174 /* main.m */; };
+		4EA0349617F57559004BA174 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0349517F57559004BA174 /* AppDelegate.m */; };
+		4EA0349817F57559004BA174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA0349717F57559004BA174 /* Images.xcassets */; };
+		4EA0349F17F57559004BA174 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0349E17F57559004BA174 /* XCTest.framework */; };
+		4EA034A017F57559004BA174 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0348517F57558004BA174 /* Foundation.framework */; };
+		4EA034A117F57559004BA174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA0348917F57558004BA174 /* UIKit.framework */; };
+		4EA034A917F57559004BA174 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EA034A717F57559004BA174 /* InfoPlist.strings */; };
+		4EA034AB17F57559004BA174 /* Mud_Client_RemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034AA17F57559004BA174 /* Mud_Client_RemoteTests.m */; };
+		4EA034BE17F57864004BA174 /* RemoteClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034BD17F57864004BA174 /* RemoteClient.m */; };
+		4EA034C017F57A66004BA174 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA034BF17F57A66004BA174 /* MultipeerConnectivity.framework */; };
+		4EA034C217F57A6B004BA174 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA034C117F57A6B004BA174 /* QuartzCore.framework */; };
+		4EA034C917F57B55004BA174 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034C717F57B55004BA174 /* MenuViewController.m */; };
+		4EA034CA17F57B55004BA174 /* MenuViewControllerLandscapeiPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA034C817F57B55004BA174 /* MenuViewControllerLandscapeiPad.xib */; };
+		4EA034CD17F57B86004BA174 /* GradientAttributedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034CC17F57B86004BA174 /* GradientAttributedButton.m */; };
+		4EA034D017F57CD2004BA174 /* SettingsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA034CF17F57CD2004BA174 /* SettingsTool.m */; };
+		4EDE7BC417F69E8500C2176A /* MenuViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDE7BC317F69E8500C2176A /* MenuViewControlleriPad.xib */; };
+		4EDE7BCC17F6A7C300C2176A /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE7BCB17F6A7C300C2176A /* NavViewController.m */; };
+		4EDE7BCF17F6ABCE00C2176A /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE7BCE17F6ABCE00C2176A /* KeyboardViewController.m */; };
+		4EF83E871800F1BF00184A0B /* 10-arrows-in.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CB81800F1BC00184A0B /* 10-arrows-in.png */; };
+		4EF83E881800F1BF00184A0B /* 10-arrows-in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CB91800F1BC00184A0B /* 10-arrows-in@2x.png */; };
+		4EF83E891800F1BF00184A0B /* 102-walk.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBA1800F1BC00184A0B /* 102-walk.png */; };
+		4EF83E8A1800F1BF00184A0B /* 102-walk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBB1800F1BC00184A0B /* 102-walk@2x.png */; };
+		4EF83E8B1800F1BF00184A0B /* 104-index-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBC1800F1BC00184A0B /* 104-index-cards.png */; };
+		4EF83E8C1800F1BF00184A0B /* 104-index-cards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBD1800F1BC00184A0B /* 104-index-cards@2x.png */; };
+		4EF83E8D1800F1BF00184A0B /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBE1800F1BC00184A0B /* 106-sliders.png */; };
+		4EF83E8E1800F1BF00184A0B /* 106-sliders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CBF1800F1BC00184A0B /* 106-sliders@2x.png */; };
+		4EF83E8F1800F1BF00184A0B /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC01800F1BC00184A0B /* 187-pencil.png */; };
+		4EF83E901800F1BF00184A0B /* 187-pencil@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC11800F1BC00184A0B /* 187-pencil@2x.png */; };
+		4EF83E911800F1BF00184A0B /* 20-gear-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC21800F1BC00184A0B /* 20-gear-2@2x.png */; };
+		4EF83E921800F1BF00184A0B /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC31800F1BC00184A0B /* 20-gear2.png */; };
+		4EF83E931800F1BF00184A0B /* 59-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC41800F1BC00184A0B /* 59-flag.png */; };
+		4EF83E941800F1BF00184A0B /* 59-flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC51800F1BC00184A0B /* 59-flag@2x.png */; };
+		4EF83E951800F1BF00184A0B /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC61800F1BC00184A0B /* 96-book.png */; };
+		4EF83E961800F1BF00184A0B /* 96-book@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CC71800F1BC00184A0B /* 96-book@2x.png */; };
+		4EF83EBC1800F1BF00184A0B /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CED1800F1BC00184A0B /* arrow-down.png */; };
+		4EF83EBD1800F1BF00184A0B /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CEE1800F1BC00184A0B /* arrow-left.png */; };
+		4EF83EBE1800F1BF00184A0B /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CEF1800F1BC00184A0B /* arrow-right.png */; };
+		4EF83EBF1800F1BF00184A0B /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CF01800F1BC00184A0B /* arrow-up.png */; };
+		4EF83EC81800F1BF00184A0B /* circleRedLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83CF91800F1BC00184A0B /* circleRedLine.png */; };
+		4EF83EDE1800F1BF00184A0B /* edit-redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D0F1800F1BC00184A0B /* edit-redo.png */; };
+		4EF83EDF1800F1BF00184A0B /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D101800F1BC00184A0B /* eye.png */; };
+		4EF83EE11800F1BF00184A0B /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D121800F1BC00184A0B /* help.png */; };
+		4EF83EE21800F1BF00184A0B /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D131800F1BC00184A0B /* history.png */; };
+		4EF83F441800F1BF00184A0B /* list_accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D751800F1BC00184A0B /* list_accept.png */; };
+		4EF83F451800F1BF00184A0B /* list_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF83D761800F1BC00184A0B /* list_go.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EA034A217F57559004BA174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA0347A17F57558004BA174 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA0348117F57558004BA174;
+			remoteInfo = "Mud Client Remote";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1442F917F6B4130095BA2A /* MenuViewControllerLandscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewControllerLandscape.xib; sourceTree = SOURCE_ROOT; };
+		4E1442FD17F6B42F0095BA2A /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = SOURCE_ROOT; };
+		4E1442FF17F6D4900095BA2A /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		4E14430017F6D4900095BA2A /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		4E8F05AE18035095002A43E7 /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
+		4E8F05AF18035095002A43E7 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		4E8F05B018035095002A43E7 /* icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon152.png; sourceTree = "<group>"; };
+		4E8F05B118035095002A43E7 /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
+		4E8F05B618035178002A43E7 /* MudRemoteiPadLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MudRemoteiPadLandscape.png; sourceTree = "<group>"; };
+		4E8F05B718035178002A43E7 /* MudRemoteiPadPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MudRemoteiPadPortrait.png; sourceTree = "<group>"; };
+		4E8F05BE1803537F002A43E7 /* MudRemoteiPadLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MudRemoteiPadLandscape@2x.png"; sourceTree = "<group>"; };
+		4E8F05BF1803537F002A43E7 /* MudRemoteiPadPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MudRemoteiPadPortrait@2x.png"; sourceTree = "<group>"; };
+		4E8F05C01803537F002A43E7 /* MudRemoteiPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MudRemoteiPhone4.png; sourceTree = "<group>"; };
+		4E8F05C11803537F002A43E7 /* MudRemoteiPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MudRemoteiPhone5.png; sourceTree = "<group>"; };
+		4E8F05C818035B3D002A43E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4EA0348217F57558004BA174 /* Mud Client Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mud Client Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA0348517F57558004BA174 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EA0348717F57558004BA174 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EA0348917F57558004BA174 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EA0348D17F57558004BA174 /* Mud Client Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mud Client Remote-Info.plist"; sourceTree = "<group>"; };
+		4EA0348F17F57558004BA174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EA0349117F57558004BA174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EA0349317F57558004BA174 /* Mud Client Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mud Client Remote-Prefix.pch"; sourceTree = "<group>"; };
+		4EA0349417F57558004BA174 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EA0349517F57559004BA174 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EA0349717F57559004BA174 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EA0349D17F57559004BA174 /* Mud Client RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mud Client RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA0349E17F57559004BA174 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4EA034A617F57559004BA174 /* Mud Client RemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mud Client RemoteTests-Info.plist"; sourceTree = "<group>"; };
+		4EA034A817F57559004BA174 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EA034AA17F57559004BA174 /* Mud_Client_RemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mud_Client_RemoteTests.m; sourceTree = "<group>"; };
+		4EA034BC17F57863004BA174 /* RemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteClient.h; path = ../RemoteClient.h; sourceTree = "<group>"; };
+		4EA034BD17F57864004BA174 /* RemoteClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteClient.m; path = ../RemoteClient.m; sourceTree = "<group>"; };
+		4EA034BF17F57A66004BA174 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		4EA034C117F57A6B004BA174 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4EA034C617F57B55004BA174 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ../MenuViewController.h; sourceTree = "<group>"; };
+		4EA034C717F57B55004BA174 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ../MenuViewController.m; sourceTree = "<group>"; };
+		4EA034C817F57B55004BA174 /* MenuViewControllerLandscapeiPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewControllerLandscapeiPad.xib; path = ../MenuViewControllerLandscapeiPad.xib; sourceTree = "<group>"; };
+		4EA034CB17F57B86004BA174 /* GradientAttributedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientAttributedButton.h; path = ../GradientAttributedButton.h; sourceTree = "<group>"; };
+		4EA034CC17F57B86004BA174 /* GradientAttributedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientAttributedButton.m; path = ../GradientAttributedButton.m; sourceTree = "<group>"; };
+		4EA034CE17F57CD2004BA174 /* SettingsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTool.h; path = ../SettingsTool.h; sourceTree = "<group>"; };
+		4EA034CF17F57CD2004BA174 /* SettingsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTool.m; path = ../SettingsTool.m; sourceTree = "<group>"; };
+		4EDE7BC317F69E8500C2176A /* MenuViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewControlleriPad.xib; sourceTree = SOURCE_ROOT; };
+		4EDE7BCA17F6A7C300C2176A /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		4EDE7BCB17F6A7C300C2176A /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		4EDE7BCD17F6ABCE00C2176A /* KeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		4EDE7BCE17F6ABCE00C2176A /* KeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		4EF83CB81800F1BC00184A0B /* 10-arrows-in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-arrows-in.png"; sourceTree = "<group>"; };
+		4EF83CB91800F1BC00184A0B /* 10-arrows-in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-arrows-in@2x.png"; sourceTree = "<group>"; };
+		4EF83CBA1800F1BC00184A0B /* 102-walk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk.png"; sourceTree = "<group>"; };
+		4EF83CBB1800F1BC00184A0B /* 102-walk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "102-walk@2x.png"; sourceTree = "<group>"; };
+		4EF83CBC1800F1BC00184A0B /* 104-index-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "104-index-cards.png"; sourceTree = "<group>"; };
+		4EF83CBD1800F1BC00184A0B /* 104-index-cards@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "104-index-cards@2x.png"; sourceTree = "<group>"; };
+		4EF83CBE1800F1BC00184A0B /* 106-sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders.png"; sourceTree = "<group>"; };
+		4EF83CBF1800F1BC00184A0B /* 106-sliders@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders@2x.png"; sourceTree = "<group>"; };
+		4EF83CC01800F1BC00184A0B /* 187-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "187-pencil.png"; sourceTree = "<group>"; };
+		4EF83CC11800F1BC00184A0B /* 187-pencil@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "187-pencil@2x.png"; sourceTree = "<group>"; };
+		4EF83CC21800F1BC00184A0B /* 20-gear-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2@2x.png"; sourceTree = "<group>"; };
+		4EF83CC31800F1BC00184A0B /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		4EF83CC41800F1BC00184A0B /* 59-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag.png"; sourceTree = "<group>"; };
+		4EF83CC51800F1BC00184A0B /* 59-flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-flag@2x.png"; sourceTree = "<group>"; };
+		4EF83CC61800F1BC00184A0B /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		4EF83CC71800F1BC00184A0B /* 96-book@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book@2x.png"; sourceTree = "<group>"; };
+		4EF83CED1800F1BC00184A0B /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		4EF83CEE1800F1BC00184A0B /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		4EF83CEF1800F1BC00184A0B /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		4EF83CF01800F1BC00184A0B /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		4EF83CF91800F1BC00184A0B /* circleRedLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleRedLine.png; sourceTree = "<group>"; };
+		4EF83D0F1800F1BC00184A0B /* edit-redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-redo.png"; sourceTree = "<group>"; };
+		4EF83D101800F1BC00184A0B /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		4EF83D121800F1BC00184A0B /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		4EF83D131800F1BC00184A0B /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		4EF83D751800F1BC00184A0B /* list_accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_accept.png; sourceTree = "<group>"; };
+		4EF83D761800F1BC00184A0B /* list_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_go.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA0347F17F57558004BA174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA034C217F57A6B004BA174 /* QuartzCore.framework in Frameworks */,
+				4EA034C017F57A66004BA174 /* MultipeerConnectivity.framework in Frameworks */,
+				4EA0348817F57558004BA174 /* CoreGraphics.framework in Frameworks */,
+				4EA0348A17F57558004BA174 /* UIKit.framework in Frameworks */,
+				4EA0348617F57558004BA174 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0349A17F57559004BA174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA0349F17F57559004BA174 /* XCTest.framework in Frameworks */,
+				4EA034A117F57559004BA174 /* UIKit.framework in Frameworks */,
+				4EA034A017F57559004BA174 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA0347917F57558004BA174 = {
+			isa = PBXGroup;
+			children = (
+				4E8F05C818035B3D002A43E7 /* Default-568h@2x.png */,
+				4E8F05BE1803537F002A43E7 /* MudRemoteiPadLandscape@2x.png */,
+				4E8F05BF1803537F002A43E7 /* MudRemoteiPadPortrait@2x.png */,
+				4E8F05C01803537F002A43E7 /* MudRemoteiPhone4.png */,
+				4E8F05C11803537F002A43E7 /* MudRemoteiPhone5.png */,
+				4E8F05B618035178002A43E7 /* MudRemoteiPadLandscape.png */,
+				4E8F05B718035178002A43E7 /* MudRemoteiPadPortrait.png */,
+				4E8F05AE18035095002A43E7 /* icon76.png */,
+				4E8F05AF18035095002A43E7 /* icon120.png */,
+				4E8F05B018035095002A43E7 /* icon152.png */,
+				4E8F05B118035095002A43E7 /* icon1024.png */,
+				4EA0348B17F57558004BA174 /* Mud Client Remote */,
+				4EA034A417F57559004BA174 /* Mud Client RemoteTests */,
+				4EA0348417F57558004BA174 /* Frameworks */,
+				4EA0348317F57558004BA174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EA0348317F57558004BA174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0348217F57558004BA174 /* Mud Client Remote.app */,
+				4EA0349D17F57559004BA174 /* Mud Client RemoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA0348417F57558004BA174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034C117F57A6B004BA174 /* QuartzCore.framework */,
+				4EA034BF17F57A66004BA174 /* MultipeerConnectivity.framework */,
+				4EA0348517F57558004BA174 /* Foundation.framework */,
+				4EA0348717F57558004BA174 /* CoreGraphics.framework */,
+				4EA0348917F57558004BA174 /* UIKit.framework */,
+				4EA0349E17F57559004BA174 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA0348B17F57558004BA174 /* Mud Client Remote */ = {
+			isa = PBXGroup;
+			children = (
+				4EF83CB71800F1BC00184A0B /* icons */,
+				4EF84058180183D000184A0B /* Components */,
+				4EF84056180183B800184A0B /* Tools */,
+				4EF84057180183C300184A0B /* Main Controllers */,
+				4EA0349417F57558004BA174 /* AppDelegate.h */,
+				4EA0349517F57559004BA174 /* AppDelegate.m */,
+				4EA0349717F57559004BA174 /* Images.xcassets */,
+				4EA0348C17F57558004BA174 /* Supporting Files */,
+			);
+			path = "Mud Client Remote";
+			sourceTree = "<group>";
+		};
+		4EA0348C17F57558004BA174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EA0348D17F57558004BA174 /* Mud Client Remote-Info.plist */,
+				4EA0348E17F57558004BA174 /* InfoPlist.strings */,
+				4EA0349117F57558004BA174 /* main.m */,
+				4EA0349317F57558004BA174 /* Mud Client Remote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EA034A417F57559004BA174 /* Mud Client RemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034AA17F57559004BA174 /* Mud_Client_RemoteTests.m */,
+				4EA034A517F57559004BA174 /* Supporting Files */,
+			);
+			path = "Mud Client RemoteTests";
+			sourceTree = "<group>";
+		};
+		4EA034A517F57559004BA174 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034A617F57559004BA174 /* Mud Client RemoteTests-Info.plist */,
+				4EA034A717F57559004BA174 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EF83CB71800F1BC00184A0B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				4EF83CB81800F1BC00184A0B /* 10-arrows-in.png */,
+				4EF83CB91800F1BC00184A0B /* 10-arrows-in@2x.png */,
+				4EF83CBA1800F1BC00184A0B /* 102-walk.png */,
+				4EF83CBB1800F1BC00184A0B /* 102-walk@2x.png */,
+				4EF83CBC1800F1BC00184A0B /* 104-index-cards.png */,
+				4EF83CBD1800F1BC00184A0B /* 104-index-cards@2x.png */,
+				4EF83CBE1800F1BC00184A0B /* 106-sliders.png */,
+				4EF83CBF1800F1BC00184A0B /* 106-sliders@2x.png */,
+				4EF83CC01800F1BC00184A0B /* 187-pencil.png */,
+				4EF83CC11800F1BC00184A0B /* 187-pencil@2x.png */,
+				4EF83CC21800F1BC00184A0B /* 20-gear-2@2x.png */,
+				4EF83CC31800F1BC00184A0B /* 20-gear2.png */,
+				4EF83CC41800F1BC00184A0B /* 59-flag.png */,
+				4EF83CC51800F1BC00184A0B /* 59-flag@2x.png */,
+				4EF83CC61800F1BC00184A0B /* 96-book.png */,
+				4EF83CC71800F1BC00184A0B /* 96-book@2x.png */,
+				4EF83CED1800F1BC00184A0B /* arrow-down.png */,
+				4EF83CEE1800F1BC00184A0B /* arrow-left.png */,
+				4EF83CEF1800F1BC00184A0B /* arrow-right.png */,
+				4EF83CF01800F1BC00184A0B /* arrow-up.png */,
+				4EF83CF91800F1BC00184A0B /* circleRedLine.png */,
+				4EF83D0F1800F1BC00184A0B /* edit-redo.png */,
+				4EF83D101800F1BC00184A0B /* eye.png */,
+				4EF83D121800F1BC00184A0B /* help.png */,
+				4EF83D131800F1BC00184A0B /* history.png */,
+				4EF83D751800F1BC00184A0B /* list_accept.png */,
+				4EF83D761800F1BC00184A0B /* list_go.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		4EF84056180183B800184A0B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034CE17F57CD2004BA174 /* SettingsTool.h */,
+				4EA034CF17F57CD2004BA174 /* SettingsTool.m */,
+				4EA034BC17F57863004BA174 /* RemoteClient.h */,
+				4EA034BD17F57864004BA174 /* RemoteClient.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4EF84057180183C300184A0B /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE7BCD17F6ABCE00C2176A /* KeyboardViewController.h */,
+				4EDE7BCE17F6ABCE00C2176A /* KeyboardViewController.m */,
+				4E1442FF17F6D4900095BA2A /* ButtonViewController.h */,
+				4E14430017F6D4900095BA2A /* ButtonViewController.m */,
+				4EA034C817F57B55004BA174 /* MenuViewControllerLandscapeiPad.xib */,
+				4E1442F917F6B4130095BA2A /* MenuViewControllerLandscape.xib */,
+				4EDE7BC317F69E8500C2176A /* MenuViewControlleriPad.xib */,
+				4E1442FD17F6B42F0095BA2A /* MenuViewController.xib */,
+				4EA034C617F57B55004BA174 /* MenuViewController.h */,
+				4EA034C717F57B55004BA174 /* MenuViewController.m */,
+			);
+			name = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		4EF84058180183D000184A0B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4EA034CB17F57B86004BA174 /* GradientAttributedButton.h */,
+				4EA034CC17F57B86004BA174 /* GradientAttributedButton.m */,
+				4EDE7BCA17F6A7C300C2176A /* NavViewController.h */,
+				4EDE7BCB17F6A7C300C2176A /* NavViewController.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EA0348117F57558004BA174 /* Mud Client Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA034AE17F57559004BA174 /* Build configuration list for PBXNativeTarget "Mud Client Remote" */;
+			buildPhases = (
+				4EA0347E17F57558004BA174 /* Sources */,
+				4EA0347F17F57558004BA174 /* Frameworks */,
+				4EA0348017F57558004BA174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mud Client Remote";
+			productName = "Mud Client Remote";
+			productReference = 4EA0348217F57558004BA174 /* Mud Client Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EA0349C17F57559004BA174 /* Mud Client RemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA034B117F57559004BA174 /* Build configuration list for PBXNativeTarget "Mud Client RemoteTests" */;
+			buildPhases = (
+				4EA0349917F57559004BA174 /* Sources */,
+				4EA0349A17F57559004BA174 /* Frameworks */,
+				4EA0349B17F57559004BA174 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA034A317F57559004BA174 /* PBXTargetDependency */,
+			);
+			name = "Mud Client RemoteTests";
+			productName = "Mud Client RemoteTests";
+			productReference = 4EA0349D17F57559004BA174 /* Mud Client RemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA0347A17F57558004BA174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = gbcs;
+				TargetAttributes = {
+					4EA0348117F57558004BA174 = {
+						DevelopmentTeam = 9VQEE2YFPA;
+					};
+					4EA0349C17F57559004BA174 = {
+						TestTargetID = 4EA0348117F57558004BA174;
+					};
+				};
+			};
+			buildConfigurationList = 4EA0347D17F57558004BA174 /* Build configuration list for PBXProject "Mud Client Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EA0347917F57558004BA174;
+			productRefGroup = 4EA0348317F57558004BA174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EA0348117F57558004BA174 /* Mud Client Remote */,
+				4EA0349C17F57559004BA174 /* Mud Client RemoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EA0348017F57558004BA174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8F05B818035178002A43E7 /* MudRemoteiPadLandscape.png in Resources */,
+				4E8F05B418035095002A43E7 /* icon152.png in Resources */,
+				4EF83E961800F1BF00184A0B /* 96-book@2x.png in Resources */,
+				4EF83F441800F1BF00184A0B /* list_accept.png in Resources */,
+				4EF83E901800F1BF00184A0B /* 187-pencil@2x.png in Resources */,
+				4EF83E951800F1BF00184A0B /* 96-book.png in Resources */,
+				4E1442FA17F6B4130095BA2A /* MenuViewControllerLandscape.xib in Resources */,
+				4EF83EDE1800F1BF00184A0B /* edit-redo.png in Resources */,
+				4E8F05C21803537F002A43E7 /* MudRemoteiPadLandscape@2x.png in Resources */,
+				4EF83E921800F1BF00184A0B /* 20-gear2.png in Resources */,
+				4EA0349017F57558004BA174 /* InfoPlist.strings in Resources */,
+				4EF83EE11800F1BF00184A0B /* help.png in Resources */,
+				4EF83E8D1800F1BF00184A0B /* 106-sliders.png in Resources */,
+				4EF83EBC1800F1BF00184A0B /* arrow-down.png in Resources */,
+				4EF83E911800F1BF00184A0B /* 20-gear-2@2x.png in Resources */,
+				4EF83EC81800F1BF00184A0B /* circleRedLine.png in Resources */,
+				4EF83E8B1800F1BF00184A0B /* 104-index-cards.png in Resources */,
+				4EF83EE21800F1BF00184A0B /* history.png in Resources */,
+				4E8F05B318035095002A43E7 /* icon120.png in Resources */,
+				4EF83E8E1800F1BF00184A0B /* 106-sliders@2x.png in Resources */,
+				4E1442FE17F6B42F0095BA2A /* MenuViewController.xib in Resources */,
+				4EF83E871800F1BF00184A0B /* 10-arrows-in.png in Resources */,
+				4EF83E8C1800F1BF00184A0B /* 104-index-cards@2x.png in Resources */,
+				4E8F05C918035B3D002A43E7 /* Default-568h@2x.png in Resources */,
+				4EF83E891800F1BF00184A0B /* 102-walk.png in Resources */,
+				4EF83E8F1800F1BF00184A0B /* 187-pencil.png in Resources */,
+				4E8F05B518035095002A43E7 /* icon1024.png in Resources */,
+				4EF83E881800F1BF00184A0B /* 10-arrows-in@2x.png in Resources */,
+				4EF83E8A1800F1BF00184A0B /* 102-walk@2x.png in Resources */,
+				4E8F05C51803537F002A43E7 /* MudRemoteiPhone5.png in Resources */,
+				4E8F05B218035095002A43E7 /* icon76.png in Resources */,
+				4E8F05B918035178002A43E7 /* MudRemoteiPadPortrait.png in Resources */,
+				4EF83E931800F1BF00184A0B /* 59-flag.png in Resources */,
+				4EA034CA17F57B55004BA174 /* MenuViewControllerLandscapeiPad.xib in Resources */,
+				4EF83EBD1800F1BF00184A0B /* arrow-left.png in Resources */,
+				4EF83F451800F1BF00184A0B /* list_go.png in Resources */,
+				4E8F05C41803537F002A43E7 /* MudRemoteiPhone4.png in Resources */,
+				4EA0349817F57559004BA174 /* Images.xcassets in Resources */,
+				4EF83E941800F1BF00184A0B /* 59-flag@2x.png in Resources */,
+				4EF83EBE1800F1BF00184A0B /* arrow-right.png in Resources */,
+				4EDE7BC417F69E8500C2176A /* MenuViewControlleriPad.xib in Resources */,
+				4EF83EBF1800F1BF00184A0B /* arrow-up.png in Resources */,
+				4EF83EDF1800F1BF00184A0B /* eye.png in Resources */,
+				4E8F05C31803537F002A43E7 /* MudRemoteiPadPortrait@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0349B17F57559004BA174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA034A917F57559004BA174 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA0347E17F57558004BA174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA034D017F57CD2004BA174 /* SettingsTool.m in Sources */,
+				4EA0349617F57559004BA174 /* AppDelegate.m in Sources */,
+				4E14430117F6D4900095BA2A /* ButtonViewController.m in Sources */,
+				4EA034CD17F57B86004BA174 /* GradientAttributedButton.m in Sources */,
+				4EA034BE17F57864004BA174 /* RemoteClient.m in Sources */,
+				4EDE7BCF17F6ABCE00C2176A /* KeyboardViewController.m in Sources */,
+				4EA0349217F57558004BA174 /* main.m in Sources */,
+				4EDE7BCC17F6A7C300C2176A /* NavViewController.m in Sources */,
+				4EA034C917F57B55004BA174 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0349917F57559004BA174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA034AB17F57559004BA174 /* Mud_Client_RemoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA034A317F57559004BA174 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EA0348117F57558004BA174 /* Mud Client Remote */;
+			targetProxy = 4EA034A217F57559004BA174 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EA0348E17F57558004BA174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA0348F17F57558004BA174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4EA034A717F57559004BA174 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA034A817F57559004BA174 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EA034AC17F57559004BA174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EA034AD17F57559004BA174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EA034AF17F57559004BA174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mud Client Remote/Mud Client Remote-Prefix.pch";
+				INFOPLIST_FILE = "Mud Client Remote/Mud Client Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EA034B017F57559004BA174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mud Client Remote/Mud Client Remote-Prefix.pch";
+				INFOPLIST_FILE = "Mud Client Remote/Mud Client Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4EA034B217F57559004BA174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mud Client Remote.app/Mud Client Remote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mud Client Remote/Mud Client Remote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mud Client RemoteTests/Mud Client RemoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4EA034B317F57559004BA174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mud Client Remote.app/Mud Client Remote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mud Client Remote/Mud Client Remote-Prefix.pch";
+				INFOPLIST_FILE = "Mud Client RemoteTests/Mud Client RemoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EA0347D17F57558004BA174 /* Build configuration list for PBXProject "Mud Client Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA034AC17F57559004BA174 /* Debug */,
+				4EA034AD17F57559004BA174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA034AE17F57559004BA174 /* Build configuration list for PBXNativeTarget "Mud Client Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA034AF17F57559004BA174 /* Debug */,
+				4EA034B017F57559004BA174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA034B117F57559004BA174 /* Build configuration list for PBXNativeTarget "Mud Client RemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA034B217F57559004BA174 /* Debug */,
+				4EA034B317F57559004BA174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA0347A17F57558004BA174 /* Project object */;
+}
